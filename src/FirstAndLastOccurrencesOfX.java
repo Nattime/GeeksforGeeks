@@ -1,18 +1,6 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class FirstAndLastOccurrencesOfX {
-    public static void main(String[] args) {
-        GFG gfg = new GFG();
-        long arr[] = new long[]{1, 3, 5, 5, 5, 5, 7, 123, 125};
-        Print p = new Print();
-        p.print(gfg.find(arr, 9, 7));
-    }
-}
-class GFG
-{
+class FirstAndLastOccurrencesOfX {
     long first = -1L;
     long last = -1L;
     ArrayList<Long> find(long arr[], int n, int x)
