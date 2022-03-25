@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 
 public class Print {
+    public static void print(long num){
+        System.out.println(num);
+    }
     public static void print(int num){
         System.out.println(num);
     }
