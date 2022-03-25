@@ -27,6 +27,19 @@ public class GFG {
         Node head2 = Create.createNodeLinkedList(arr2);
         Print.print(FindNKthNodeInLinkedList.nknode(head2, 3));
          */
+
+        /* Multiply two linked lists
+        int[] arr1 = new int[]{3, 2};
+        int[] arr2 = new int[]{2};
+        Node head1 = Create.createNodeLinkedList(arr1);
+        Node head2 = Create.createNodeLinkedList(arr2);
+        Print.print(MultiplyTwoLinkedLists.multiplyTwoLists(head1, head2));
+        int[] arr1 = new int[]{1, 0, 0};
+        int[] arr2 = new int[]{1, 0};
+        Node head1 = Create.createNodeLinkedList(arr1);
+        Node head2 = Create.createNodeLinkedList(arr2);
+        Print.print(MultiplyTwoLinkedLists.multiplyTwoLists(head1, head2));
+        */
     }
 
 
