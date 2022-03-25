@@ -1,6 +1,18 @@
 import java.util.ArrayList;
 
 public class Print {
+    public static void print(int[] arr){
+        if(arr == null || arr.length == 0){
+            System.out.println("Is empty");
+        }else{
+            for(int iter : arr){
+                System.out.print(iter + " ");
+            }System.out.println();
+        }
+    }
+    public static void print(boolean bool){
+        System.out.println(bool);
+    }
     public static void print(long num){
         System.out.println(num);
     }
