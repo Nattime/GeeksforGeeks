@@ -40,6 +40,16 @@ public class GFG {
         Node head2 = Create.createNodeLinkedList(arr2);
         Print.print(MultiplyTwoLinkedLists.multiplyTwoLists(head1, head2));
         */
+
+        /* Operating an array
+        OperatingAnArray oaa = new OperatingAnArray();
+        int[] arr = new int[]{2, 4, 1, 0, 6};
+        int[] ops = new int[]{1, 2, 2, 0};
+        Print.print(oaa.operate(arr, ops));
+        int[] arr2 = new int[]{801, 661, 730, 878, 305, 320};
+        int[] ops2 = new int[]{736, 444, 0, 522};
+        Print.print(oaa.operate(arr2, ops2));
+         */
     }
 
 
