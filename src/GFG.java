@@ -1,5 +1,37 @@
+import java.util.ArrayList;
+
 public class GFG {
     public static void main(String[] args) {
+
+
+
+        /* BFS of graph
+        BFSOfGraph bfsog = new BFSOfGraph();
+        int V = 5;
+        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+        ArrayList<Integer> zeroList = new ArrayList<>();
+        zeroList.add(1);
+        zeroList.add(2);
+        zeroList.add(3);
+        ArrayList<Integer> twoList = new ArrayList<>();
+        twoList.add(4);
+        adj.add(zeroList);
+        adj.add(new ArrayList<>());
+        adj.add(twoList);
+        adj.add(new ArrayList<>());
+        adj.add(new ArrayList<>());
+        Print.print(bfsog.bfsOfGraph(V, adj));
+
+        int V2 = 3;
+        ArrayList<ArrayList<Integer>> adj2 = new ArrayList<>();
+        ArrayList<Integer> zeroList2 = new ArrayList<>();
+        zeroList2.add(1);
+        zeroList2.add(2);
+        adj2.add(zeroList2);
+        adj2.add(new ArrayList<>());
+        adj2.add(new ArrayList<>());
+        Print.print(bfsog.bfsOfGraph(V2, adj2));
+        */
 
         /* First and last occurrences of x
         FirstAndLastOccurrencesOfX flox = new FirstAndLastOccurrencesOfX();

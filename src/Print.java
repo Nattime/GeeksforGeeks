@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class Print {
     public static void print(int[] arr){
@@ -19,11 +20,12 @@ public class Print {
     public static void print(int num){
         System.out.println(num);
     }
-    public static void print(ArrayList<Long> list){
+
+    public static void print(List list){
         if(list == null || list.isEmpty()){
             System.out.println("Is empty");
         }else{
-            for(Long iter : list){
+            for(Object iter : list){
                 System.out.print(iter + " ");
             }System.out.println();
         }
