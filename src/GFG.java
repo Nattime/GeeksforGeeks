@@ -3,7 +3,17 @@ import java.util.ArrayList;
 public class GFG {
     public static void main(String[] args) {
 
-
+        /* Counting elements in two arrays
+        CountingElementsInTwoArrays ceita = new CountingElementsInTwoArrays();
+        int arr1[] = {1, 2, 3, 4, 7, 9};
+        int arr2[] = {0, 1, 2, 1, 1, 4};
+        int m = 6, n = 6;
+        Print.print(ceita.countEleLessThanOrEqual(arr1, arr2, m, n));
+        int arr3[] = {4, 8, 7, 5, 1};
+        int arr4[] = {4, 48, 3, 0, 1, 1, 5};
+        int m2 = 5, n2 = 7;
+        Print.print(ceita.countEleLessThanOrEqual(arr3, arr4, m2, n2));
+         */
 
         /* BFS of graph
         BFSOfGraph bfsog = new BFSOfGraph();

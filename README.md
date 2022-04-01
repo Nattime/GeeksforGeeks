@@ -1,5 +1,9 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Counting elements in two arrays
+
+BFS of graph
+
 Operating an array
 
 Find n/k th node in linked list
