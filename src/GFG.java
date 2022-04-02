@@ -3,6 +3,16 @@ import java.util.ArrayList;
 public class GFG {
     public static void main(String[] args) {
 
+        /* Check whether BST contains Dead End
+        CheckWhetherBSTContainsDeadEnd cwbstcde = new CheckWhetherBSTContainsDeadEnd();
+        int[] arr = {8, 5, 9, 2, 7, 1};
+        Node root = Create.createBST(arr);
+        Print.print((cwbstcde.isDeadEnd(root) ? 1 : 0));
+        int[] arr2 = {8, 7, 10, 9, 13, 2};
+        Node root2 = Create.createBST(arr2);
+        Print.print((cwbstcde.isDeadEnd(root2) ? 1: 0));
+         */
+
         /* Move all negative elements to end
         MoveAllNegativeElementsToEnd manete = new MoveAllNegativeElementsToEnd();
         int[] arr = {1, -1, 3, 2, -7, -5, 11, 6};
