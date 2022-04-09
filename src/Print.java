@@ -106,4 +106,14 @@ public class Print {
             }
         }
     }
+
+    public static void print(String[] arr) {
+        if(arr.length <= 0) {
+            System.out.println("Empty array.");
+        }else{
+            for(String iter : arr){
+                System.out.print(iter + " ");
+            }System.out.println();
+        }
+    }
 }
