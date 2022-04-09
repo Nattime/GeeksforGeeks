@@ -1,6 +1,15 @@
 public class GFG {
     public static void main(String[] args) {
 
+        /* Searching a number
+        SearchingANumber san = new SearchingANumber();
+        int[] arr = {9, 7, 2, 16, 4};
+        Print.print(san.search(arr, 5, 16));
+        int[] arr2 = {1, 22, 57, 47, 34, 18, 66};
+        Print.print(san.search(arr2, 7, 98));
+
+         */
+
         /* Even Odd
         EvenOdd eo = new EvenOdd();
         eo.evenOdd(2, 3);
