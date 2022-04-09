@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class Print {
     public static void print(int[] arr){
@@ -80,5 +82,28 @@ public class Print {
     public static void printPostOrder(Node root) {
         printPostOrderHelper(root);
         System.out.println();
+    }
+
+    public static void printLevelOrder(Node root) {
+        printLevelOrderHelper(root);
+        System.out.println();
+    }
+
+    private static void printLevelOrderHelper(Node root){
+        if(root == null){
+            System.out.println("Empty tree");
+        }
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+        while(!q.isEmpty()){
+            Node curr = q.remove();
+            if(curr == null){
+                System.out.print("N ");
+            }else {
+                System.out.print(curr.data + " ");
+                q.add(curr.left);
+                q.add(curr.right);
+            }
+        }
     }
 }
