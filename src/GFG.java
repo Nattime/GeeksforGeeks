@@ -1,6 +1,13 @@
 public class GFG {
     public static void main(String[] args) {
 
+        /* Integer to Words
+        IntegerToWords itw = new IntegerToWords();
+        Print.print(itw.convertToWords(438237764L));
+        Print.print(itw.convertToWords(1000L));
+
+         */
+
         /* Check if array is sorted
         CheckIfArrayIsSorted ciais = new CheckIfArrayIsSorted();
         int[] arr = {10, 20, 30, 40, 50};

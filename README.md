@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Integer to Words
+
 Check if array is sorted
 
 Winner of an election
