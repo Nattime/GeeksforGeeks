@@ -1,6 +1,15 @@
 public class GFG {
     public static void main(String[] args) {
 
+        /* Check if array is sorted
+        CheckIfArrayIsSorted ciais = new CheckIfArrayIsSorted();
+        int[] arr = {10, 20, 30, 40, 50};
+        Print.print(ciais.arraySortedOrNot(arr, 5));
+        int[] arr2 = {90, 80, 100, 70, 40, 30};
+        Print.print(ciais.arraySortedOrNot(arr2, 6));
+
+         */
+
         /* Winner of an election
         String[] arr = {"john", "johnny", "jackie", "johnny", "john", "jackie", "jamie", "jamie", "john", "johnny", "jamie", "johnny", "john"};
         Print.print(WinnerOfAnElection.winner(arr, 13));
