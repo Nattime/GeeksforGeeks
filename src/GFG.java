@@ -1,6 +1,14 @@
 public class GFG {
     public static void main(String[] args) {
 
+        /* Winner of an election
+        String[] arr = {"john", "johnny", "jackie", "johnny", "john", "jackie", "jamie", "jamie", "john", "johnny", "jamie", "johnny", "john"};
+        Print.print(WinnerOfAnElection.winner(arr, 13));
+        String[] arr2 = {"andy", "blake", "clark"};
+        Print.print(WinnerOfAnElection.winner(arr2, 3));
+
+         */
+
         /* Searching a number
         SearchingANumber san = new SearchingANumber();
         int[] arr = {9, 7, 2, 16, 4};

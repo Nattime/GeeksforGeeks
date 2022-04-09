@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Winner of an election
+
 Searching a number
 
 Even Odd
