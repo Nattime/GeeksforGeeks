@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Even Odd
+
 Two Repeated Elements
 
 Ancestors in Binary Tree

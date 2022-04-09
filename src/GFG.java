@@ -1,7 +1,12 @@
-import java.util.ArrayList;
-
 public class GFG {
     public static void main(String[] args) {
+
+        /* Even Odd
+        EvenOdd eo = new EvenOdd();
+        eo.evenOdd(2, 3);
+        eo.evenOdd(5, 2);
+
+         */
 
         /* Two Repeated Elements
         TwoRepeatedElements tre = new TwoRepeatedElements();
