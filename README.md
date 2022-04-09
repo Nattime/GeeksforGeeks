@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Two Repeated Elements
+
 Ancestors in Binary Tree
 
 Check whether BST contains Dead End

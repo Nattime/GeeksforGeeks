@@ -3,6 +3,14 @@ import java.util.ArrayList;
 public class GFG {
     public static void main(String[] args) {
 
+        /* Two Repeated Elements
+        TwoRepeatedElements tre = new TwoRepeatedElements();
+        int[] arr = {1, 2, 1, 3, 4, 3};
+        Print.print(tre.twoRepeated(arr, 4));
+        int[] arr2 = {1, 2, 2, 1};
+        Print.print(tre.twoRepeated(arr2, 2));
+
+         */
 
         /* Ancestors in Binary Tree
         int[] arr = {1, 2, 3, 4, 5, -1, -1, 7};
