@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Preorder Traversal (Iterative)
+
 Inorder Traversal (Iterative)
 
 Make Binary Tree From Linked List
