@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Valid Substring
+
 Equilibrium Point
 
 Integer to Words

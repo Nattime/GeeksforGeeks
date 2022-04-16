@@ -1,6 +1,13 @@
 public class GFG {
     public static void main(String[] args) {
 
+        /* Valid Substring
+        Print.print(ValidSubstring.findMaxLen("(()("));
+        Print.print(ValidSubstring.findMaxLen("()(())("));
+
+         */
+
+
         /* Equilibrium point
         long[] arr = {1L, 3L, 5L, 2L, 2L};
         Print.print(EquilibriumPoint.equilibriumPoint(arr, 5));
