@@ -116,4 +116,14 @@ public class Print {
             }System.out.println();
         }
     }
+
+    public static void print(Node root) {
+        if(root == null){
+            System.out.println("Is empty.");
+        }
+        while(root != null){
+            System.out.print(root.data + " ");
+            root = root.next;
+        }System.out.println();
+    }
 }
