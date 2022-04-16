@@ -1,6 +1,18 @@
 public class GFG {
     public static void main(String[] args) {
 
+        /* Rotate a Linked List
+        RotateALinkedList rall = new RotateALinkedList();
+        int[] arr = {2, 4, 7, 8, 9};
+        Node root = Create.createNodeLinkedList(arr);
+        Print.print(rall.rotate(root, 3));
+        int[] arr2 = {1, 2, 3, 4, 5, 6, 7, 8};
+        Node root2 = Create.createNodeLinkedList(arr2);
+        Print.print(rall.rotate(root2, 4));
+
+         */
+
+
         /* Valid Substring
         Print.print(ValidSubstring.findMaxLen("(()("));
         Print.print(ValidSubstring.findMaxLen("()(())("));
@@ -24,6 +36,7 @@ public class GFG {
 
          */
 
+
         /* Check if array is sorted
         CheckIfArrayIsSorted ciais = new CheckIfArrayIsSorted();
         int[] arr = {10, 20, 30, 40, 50};
@@ -41,6 +54,7 @@ public class GFG {
 
          */
 
+
         /* Searching a number
         SearchingANumber san = new SearchingANumber();
         int[] arr = {9, 7, 2, 16, 4};
@@ -50,12 +64,14 @@ public class GFG {
 
          */
 
+
         /* Even Odd
         EvenOdd eo = new EvenOdd();
         eo.evenOdd(2, 3);
         eo.evenOdd(5, 2);
 
          */
+
 
         /* Two Repeated Elements
         TwoRepeatedElements tre = new TwoRepeatedElements();
@@ -65,6 +81,7 @@ public class GFG {
         Print.print(tre.twoRepeated(arr2, 2));
 
          */
+
 
         /* Ancestors in Binary Tree
         int[] arr = {1, 2, 3, 4, 5, -1, -1, 7};
@@ -78,6 +95,7 @@ public class GFG {
 
          */
 
+
         /* Check whether BST contains Dead End
         CheckWhetherBSTContainsDeadEnd cwbstcde = new CheckWhetherBSTContainsDeadEnd();
         int[] arr = {8, 5, 9, 2, 7, 1};
@@ -89,6 +107,7 @@ public class GFG {
 
          */
 
+
         /* Move all negative elements to end
         MoveAllNegativeElementsToEnd manete = new MoveAllNegativeElementsToEnd();
         int[] arr = {1, -1, 3, 2, -7, -5, 11, 6};
@@ -99,6 +118,7 @@ public class GFG {
         Print.print(arr);
 
          */
+
 
         /* Counting elements in two arrays
         CountingElementsInTwoArrays ceita = new CountingElementsInTwoArrays();
@@ -112,6 +132,7 @@ public class GFG {
         Print.print(ceita.countEleLessThanOrEqual(arr3, arr4, m2, n2));
 
          */
+
 
         /* BFS of graph
         BFSOfGraph bfsog = new BFSOfGraph();
@@ -142,6 +163,7 @@ public class GFG {
 
         */
 
+
         /* First and last occurrences of x
         FirstAndLastOccurrencesOfX flox = new FirstAndLastOccurrencesOfX();
         long arr[] = new long[]{1, 3, 5, 5, 5, 5, 67, 123, 125};
@@ -150,6 +172,7 @@ public class GFG {
         Print.print(flox.find(arr2, 9, 7));
 
         */
+
 
         /* Sorted insert for circular linked list
         SortedInsertForCircularLinkedList sifcll = new SortedInsertForCircularLinkedList();
@@ -162,6 +185,7 @@ public class GFG {
 
          */
 
+
         /* Find n/k th node in Linked List
         int[] arr = new int[]{1, 2, 3, 4, 5, 6};
         Node head = Create.createNodeLinkedList(arr);
@@ -171,6 +195,7 @@ public class GFG {
         Print.print(FindNKthNodeInLinkedList.nknode(head2, 3));
 
          */
+
 
         /* Multiply two linked lists
         int[] arr1 = new int[]{3, 2};
@@ -186,6 +211,7 @@ public class GFG {
 
         */
 
+
         /* Operating an array
         OperatingAnArray oaa = new OperatingAnArray();
         int[] arr = new int[]{2, 4, 1, 0, 6};
@@ -197,6 +223,4 @@ public class GFG {
 
          */
     }
-
-
 }

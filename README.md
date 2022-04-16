@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Rotate a Linked List
+
 Valid Substring
 
 Equilibrium Point
