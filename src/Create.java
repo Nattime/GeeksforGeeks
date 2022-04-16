@@ -6,12 +6,27 @@ public class Create {
         if(arr.length < 1){
             return null;
         }
+        Node root = binaryTreeHelper(arr);
+        transformTree(root);
+        return root;
+    }
+    static Node binaryTreeHelper(int[] arr){
         Node root = new Node(arr[0]);
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
 
         for(int i = 1; i < arr.length; i++){
-            binaryTreeAdd(root, arr[i]);
+            Node curr = q.peek();
+            Node n = new Node(arr[i]);
+            assert curr != null;
+            if(curr.getLeft() == null){
+                curr.setLeft(n);
+            }else{
+                curr.setRight(n);
+                q.remove();
+            }
+            q.add(n);
         }
-        transformTree(root);
         return root;
     }
     static void transformTree(Node root){
@@ -34,23 +49,6 @@ public class Create {
                     q.add(curr.right);
                 }
             }
-        }
-    }
-    static void binaryTreeAdd(Node root, int num){
-        Queue<Node> q = new LinkedList<>();
-        q.add(root);
-        while(!q.isEmpty()){
-            Node curr = q.remove();
-            if(curr.left == null){
-                curr.prev = curr.left = new Node(num);
-                return;
-            }
-            q.add(curr.left);
-            if(curr.right == null){
-                curr.next = curr.right = new Node(num);
-                return;
-            }
-            q.add(curr.right);
         }
     }
     static Node createBST(int[] arr){
