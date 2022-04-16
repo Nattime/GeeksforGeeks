@@ -1,6 +1,18 @@
 public class GFG {
     public static void main(String[] args) {
 
+        HeightOfBinaryTree hobt = new HeightOfBinaryTree();
+        int[] arr = {1, 2, 3};
+        Node root = Create.createBinaryTree(arr);
+        Print.printBinaryTree(root);
+        Print.print(hobt.height(root));
+        int[] arr2 = {2, -1, 1, -1, -1, 3};
+        Node root2 = Create.createBinaryTree(arr2);
+        Print.printBinaryTree(root2);
+        Print.print(hobt.height(root2));
+
+
+        /* Merge two BST
         MergeTwoBST mtbst = new MergeTwoBST();
         int[] arr1 = {5, 3, 6, 2, 4};
         int[] arr2 = {2, 1, 3, 7, 6};
@@ -16,6 +28,8 @@ public class GFG {
         Print.printLevelOrder(root3);
         Print.printLevelOrder(root4);
         Print.print(mtbst.merge(root3, root4));
+
+         */
 
 
         /* Rotate a Linked List
