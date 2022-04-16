@@ -29,16 +29,16 @@ public class Print {
     }
     private static void printInOrderHelper(Node node){
         if(node != null){
-            printInOrderHelper(node.prev);
-            System.out.print(node.data + " ");
-            printInOrderHelper(node.next);
+            printInOrderHelper(node.getPrev());
+            System.out.print(node.getData() + " ");
+            printInOrderHelper(node.getNext());
         }
     }
     public static void printPreOrderHelper(Node node){
         if(node != null){
-            System.out.print(node.data + " ");
-            printPreOrderHelper(node.prev);
-            printPreOrderHelper(node.next);
+            System.out.print(node.getData() + " ");
+            printPreOrderHelper(node.getPrev());
+            printPreOrderHelper(node.getNext());
         }
     }
     public static void print(String str){
@@ -46,9 +46,9 @@ public class Print {
     }
     public static void printPostOrderHelper(Node node){
         if(node != null){
-            printPostOrderHelper(node.prev);
-            printPostOrderHelper(node.next);
-            System.out.print(node.data + " ");
+            printPostOrderHelper(node.getPrev());
+            printPostOrderHelper(node.getNext());
+            System.out.print(node.getData() + " ");
         }
     }
     public static void print(List list){
@@ -64,11 +64,11 @@ public class Print {
         if(n == null){
             System.out.println("Is Empty");
         }else{
-            System.out.print(n.data);
-            Node trav = n.next;
+            System.out.print(n.getData());
+            Node trav = n.getNext();
             while(trav != n){
-                System.out.print(" " + trav.data);
-                trav = trav.next;
+                System.out.print(" " + trav.getData());
+                trav = trav.getNext();
             }
             System.out.println();
         }
@@ -100,9 +100,9 @@ public class Print {
             if(curr == null){
                 System.out.print("N ");
             }else {
-                System.out.print(curr.data + " ");
-                q.add(curr.left);
-                q.add(curr.right);
+                System.out.print(curr.getData() + " ");
+                q.add(curr.getLeft());
+                q.add(curr.getRight());
             }
         }
     }
@@ -117,13 +117,25 @@ public class Print {
         }
     }
 
+    public static void printBinaryTree(Node root){
+        printLevelOrder(root);
+    }
+
     public static void print(Node root) {
         if(root == null){
             System.out.println("Is empty.");
         }
-        while(root != null){
-            System.out.print(root.data + " ");
-            root = root.next;
-        }System.out.println();
+        assert root != null;
+        if(root.getRight() != null){
+            while(root != null){
+                System.out.print(root.getData() + " ");
+                root = root.getRight();
+            }System.out.println();
+        }else{
+            while(root != null){
+                System.out.print(root.getData() + " ");
+                root = root.getNext();
+            }System.out.println();
+        }
     }
 }
