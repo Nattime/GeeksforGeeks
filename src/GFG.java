@@ -1,6 +1,19 @@
 public class GFG {
     public static void main(String[] args) {
 
+        /* Inorder Traversal (Iterative)
+        InorderTraversalIterative iti = new InorderTraversalIterative();
+        int[] arr = {1, 2, 3, 4, 5};
+        Node root = Create.createBinaryTree(arr);
+        Print.print(iti.inOrder(root));
+        int[] arr2 = {8, 1, 5, -1, 7, 10, 6, -1, -1, -1, 10, 6};
+        Node root2 = Create.createBinaryTree(arr2);
+        Print.printBinaryTree(root2);
+        Print.print(iti.inOrder(root2));
+
+         */
+
+
         /* Make Binary Tree From Linked List
         int[] arr = {10, 12, 15, 25, 30, 36};
         Node node = Create.createNodeLinkedList(arr);

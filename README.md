@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Inorder Traversal (Iterative)
+
 Make Binary Tree From Linked List
 
 Height of Binary Tree
