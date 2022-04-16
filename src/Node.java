@@ -1,6 +1,10 @@
 public class Node {
     int data;
     Node next, prev, left, right;
+    Node(){
+
+    }
+
     Node(int data){
         setData(data);
         next = prev = left = right = null;
