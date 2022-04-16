@@ -22,14 +22,14 @@ public class Create {
 
             if(curr.left != null){
                 if(curr.left.data == -1){
-                    curr.left = null;
+                    curr.prev = curr.left = null;
                 }else{
                     q.add(curr.left);
                 }
             }
             if(curr.right != null){
                 if(curr.right.data == -1){
-                    curr.right = null;
+                    curr.next = curr.right = null;
                 }else{
                     q.add(curr.right);
                 }
@@ -42,12 +42,12 @@ public class Create {
         while(!q.isEmpty()){
             Node curr = q.remove();
             if(curr.left == null){
-                curr.left = new Node(num);
+                curr.prev = curr.left = new Node(num);
                 return;
             }
             q.add(curr.left);
             if(curr.right == null){
-                curr.right = new Node(num);
+                curr.next = curr.right = new Node(num);
                 return;
             }
             q.add(curr.right);
@@ -69,13 +69,13 @@ public class Create {
                 if(root.prev != null){
                     bstAdd(root.prev, num);
                 }else{
-                    root.prev = new Node(num);
+                    root.left = root.prev = new Node(num);
                 }
             }else if(root.data < num){
                 if(root.next != null){
                     bstAdd(root.next, num);
                 }else{
-                    root.next = new Node(num);
+                    root.right = root.next = new Node(num);
                 }
             }
         }
@@ -89,7 +89,7 @@ public class Create {
         Node head = new Node(arr[0]);
         Node trav = head;
         for(int i = 1; i < arr.length; i++){
-            trav.next = new Node(arr[i]);
+            trav.left = trav.next = new Node(arr[i]);
             trav = trav.next;
         }
         return head;
@@ -101,7 +101,7 @@ public class Create {
         Node head = new Node(arr[0]);
         Node trav = head;
         for(int i = 1; i < arr.length; i++){
-            trav.next = new Node(arr[i]);
+            trav.right = trav.next = new Node(arr[i]);
             trav = trav.next;
         }
         trav.next = head;
