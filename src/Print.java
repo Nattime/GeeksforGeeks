@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class Print {
     public static void print(int[] arr){
@@ -136,6 +133,36 @@ public class Print {
                 System.out.print(root.getData() + " ");
                 root = root.getNext();
             }System.out.println();
+        }
+    }
+    public static void printRandomTree(Tree root){
+        if(root == null){
+            System.out.println("Is empty.");
+        }else{
+            Queue<Tree> q = new LinkedList<>();
+            q.add(root);
+            while(!q.isEmpty()){
+                Tree curr = q.remove();
+                System.out.print(curr.data + " ");
+                if(curr.left != null){
+                    q.add(curr.left);
+                    System.out.print(curr.left.data + " ");
+                }else{
+                    System.out.print("N ");
+                }
+                if(curr.right != null){
+                    q.add(curr.right);
+                    System.out.print(curr.right.data + " ");
+                }else{
+                    System.out.print("N ");
+                }
+                if(curr.random != null){
+                    System.out.print(curr.random.data);
+                }else{
+                    System.out.print("N ");
+                }
+                System.out.println();
+            }
         }
     }
 }
