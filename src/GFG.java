@@ -1,6 +1,7 @@
 public class GFG {
     public static void main(String[] args) {
 
+        /* Height of Binary Tree
         HeightOfBinaryTree hobt = new HeightOfBinaryTree();
         int[] arr = {1, 2, 3};
         Node root = Create.createBinaryTree(arr);
@@ -10,6 +11,8 @@ public class GFG {
         Node root2 = Create.createBinaryTree(arr2);
         Print.printBinaryTree(root2);
         Print.print(hobt.height(root2));
+
+         */
 
 
         /* Merge two BST
