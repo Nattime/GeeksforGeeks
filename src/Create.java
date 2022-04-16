@@ -1,7 +1,40 @@
+import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.Map;
 import java.util.Queue;
 
 public class Create {
+    static Tree createRandomTree(int[][] matrix){
+        Map<Integer, Tree> m = new HashMap<>();
+        System.out.println(matrix.length + " len ");
+        for(int[] iter : matrix){
+            int num = iter[0];
+            if(!m.containsKey(num)){
+                Tree t = new Tree(num, setTree(iter[1], m), setTree(iter[2], m), setTree(iter[3], m));
+                m.put(num, t);
+            }else{
+                Tree t = m.get(num);
+                t.right = (setTree(iter[1], m));
+                t.left = (setTree(iter[2], m));
+                t.setRandom(setTree(iter[3], m));
+            }
+        }
+
+        return m.get(matrix[0][0]);
+    }
+    static Tree setTree(int data, Map<Integer, Tree> m){
+        if(data == -1){
+            return null;
+        }
+        if(m.containsKey(data)){
+            return m.get(data);
+        }
+        Tree tree = new Tree(data);
+        m.put(data, tree);
+        return tree;
+    }
+
+
     static Node createBinaryTree(int[] arr){
         if(arr.length < 1){
             return null;
