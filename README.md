@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Equilibrium Point
+
 Integer to Words
 
 Check if array is sorted

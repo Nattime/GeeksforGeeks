@@ -1,6 +1,15 @@
 public class GFG {
     public static void main(String[] args) {
 
+        /* Equilibrium point
+        long[] arr = {1L, 3L, 5L, 2L, 2L};
+        Print.print(EquilibriumPoint.equilibriumPoint(arr, 5));
+        long[] arr2 = {1L};
+        Print.print(EquilibriumPoint.equilibriumPoint(arr2, 1));
+
+         */
+
+
         /* Integer to Words
         IntegerToWords itw = new IntegerToWords();
         Print.print(itw.convertToWords(438237764L));
