@@ -1,6 +1,18 @@
 public class GFG {
     public static void main(String[] args) {
 
+        /* Postorder Traversal (Iterative)
+        PostorderTraversalIterative pti = new PostorderTraversalIterative();
+        int[] arr = {1, 2, 3, 4, 5};
+        Node root = Create.createBinaryTree(arr);
+        Print.print(pti.postOrder(root));
+        int[] arr2 = {8, 1, 5, -1, 7, 10, 6, -1, -1, -1, 10, 6};
+        Node root2 = Create.createBinaryTree(arr2);
+        Print.print(pti.postOrder(root2));
+
+         */
+
+
         /* Preorder traversal (Iterative)
         PreorderTraversalIterative pti = new PreorderTraversalIterative();
         int[] arr = {1, 2, 3, 4, 5};
@@ -10,7 +22,7 @@ public class GFG {
         Node root2 = Create.createBinaryTree(arr2);
         Print.printBinaryTree(root2);
         Print.print(pti.preOrder(root2));
-        
+
          */
 
 
