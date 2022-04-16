@@ -1,6 +1,23 @@
 public class GFG {
     public static void main(String[] args) {
 
+        MergeTwoBST mtbst = new MergeTwoBST();
+        int[] arr1 = {5, 3, 6, 2, 4};
+        int[] arr2 = {2, 1, 3, 7, 6};
+        Node root1 = Create.createBST(arr1);
+        Node root2 = Create.createBST(arr2);
+        Print.printLevelOrder(root1);
+        Print.printLevelOrder(root2);
+        Print.print(mtbst.merge(root1, root2));
+        int[] arr3 = {12, 9, 6, 11};
+        int[] arr4 = {8, 5, 10, 2};
+        Node root3 = Create.createBST(arr3);
+        Node root4 = Create.createBST(arr4);
+        Print.printLevelOrder(root3);
+        Print.printLevelOrder(root4);
+        Print.print(mtbst.merge(root3, root4));
+
+
         /* Rotate a Linked List
         RotateALinkedList rall = new RotateALinkedList();
         int[] arr = {2, 4, 7, 8, 9};
