@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Make Binary Tree From Linked List
+
 Height of Binary Tree
 
 Merge two BST

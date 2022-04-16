@@ -1,6 +1,19 @@
 public class GFG {
     public static void main(String[] args) {
 
+        /* Make Binary Tree From Linked List
+        int[] arr = {10, 12, 15, 25, 30, 36};
+        Node node = Create.createNodeLinkedList(arr);
+        Print.print(node);
+        Print.printBinaryTree(MakeBinaryTreeFromLinkedList.convert(node, null));
+        int[] arr2 = {5, 4, 3, 2, 1};
+        Node node2 = Create.createNodeLinkedList(arr2);
+        Print.print(node2);
+        Print.printBinaryTree(MakeBinaryTreeFromLinkedList.convert(node2, null));
+
+         */
+
+
         /* Height of Binary Tree
         HeightOfBinaryTree hobt = new HeightOfBinaryTree();
         int[] arr = {1, 2, 3};
