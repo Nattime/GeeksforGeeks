@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Penalty Shooters
+
 Rearranging array
 
 Snake Case

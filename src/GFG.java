@@ -3,6 +3,13 @@ import java.util.Stack;
 public class GFG {
     public static void main(String[] args) {
 
+        /* Penalty Shooters
+        Print.print(PenaltyShooters.goals(4, 9, 5));
+        Print.print(PenaltyShooters.goals(13, 10, 7));
+
+         */
+
+
         /* Rearranging array
         int[] arr = {4, 5, 1, 2, 3};
         int[] ans = new int[5];
