@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Insertion Sort for Singly Linked List
+
 Remove loop in Linked List
 
 Level order traversal in spiral form

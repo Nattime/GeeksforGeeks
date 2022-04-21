@@ -1,6 +1,17 @@
 public class GFG {
     public static void main(String[] args) {
 
+        /* Insertion Sort for Singly Linked List
+        int[] arr = {30, 23, 28, 30, 11, 14, 19, 16, 21, 25};
+        Node root = Create.createNodeLinkedList(arr);
+        Print.print(InsertionSortForSinglyLinkedList.insertionSort(root));
+        int[] arr2 = {19, 20, 16, 12, 29, 30};
+        Node root2 = Create.createNodeLinkedList(arr2);
+        Print.print(InsertionSortForSinglyLinkedList.insertionSort(root2));
+
+         */
+
+
         /* Remove loop in Linked List
         RemoveLoopInLinkedList rlill = new RemoveLoopInLinkedList();
 
