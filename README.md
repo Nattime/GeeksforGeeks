@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Clone a stack without using extra space
+
 Insertion Sort for Singly Linked List
 
 Remove loop in Linked List

@@ -3,6 +3,7 @@ import java.util.Stack;
 public class GFG {
     public static void main(String[] args) {
 
+        /* Clone a stack without using extra space
         CloneAStackWithoutUsingExtraSpace caswues = new CloneAStackWithoutUsingExtraSpace();
         int[] arr = {1, 1, 2, 2, 3, 4, 5, 5, 6, 7};
         Stack<Integer> s = Create.createStack(arr);
@@ -12,6 +13,9 @@ public class GFG {
         caswues.clonestack(s, cloned);
         Print.print(s);
         Print.print(cloned);
+
+         */
+
 
         /* Insertion Sort for Singly Linked List
         int[] arr = {30, 23, 28, 30, 11, 14, 19, 16, 21, 25};
