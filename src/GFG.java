@@ -1,6 +1,12 @@
 public class GFG {
     public static void main(String[] args) {
 
+        /* Remove loop in Linked List
+        RemoveLoopInLinkedList rlill = new RemoveLoopInLinkedList();
+
+         */
+
+
         /* Level order traversal in spiral form
         LevelOrderTraversalInSpiralForm lotisf = new LevelOrderTraversalInSpiralForm();
         int[] arr = {1, 3, 2};
