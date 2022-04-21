@@ -39,9 +39,7 @@ public class Create {
         if(arr.length < 1){
             return null;
         }
-        Node root = binaryTreeHelper(arr);
-        transformTree(root);
-        return root;
+        return binaryTreeHelper(arr);
     }
     static Node binaryTreeHelper(int[] arr){
         Node root = new Node(arr[0]);
@@ -49,16 +47,24 @@ public class Create {
         q.add(root);
 
         for(int i = 1; i < arr.length; i++){
-            Node curr = q.peek();
-            Node n = new Node(arr[i]);
-            assert curr != null;
-            if(curr.getLeft() == null){
-                curr.setLeft(n);
+            Node curr = q.remove();
+            if(arr[i] == -1){
+                curr.setLeft(null);
             }else{
-                curr.setRight(n);
-                q.remove();
+                Node n = new Node(arr[i]);
+                curr.setLeft(n);
+                q.add(n);
             }
-            q.add(n);
+            i++;
+            if(i < arr.length){
+                if(arr[i] == -1){
+                    curr.setRight(null);
+                }else{
+                    Node n = new Node(arr[i]);
+                    curr.setRight(n);
+                    q.add(n);
+                }
+            }
         }
         return root;
     }
