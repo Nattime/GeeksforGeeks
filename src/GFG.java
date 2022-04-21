@@ -1,6 +1,19 @@
 public class GFG {
     public static void main(String[] args) {
 
+        /* Level order traversal in spiral form
+        LevelOrderTraversalInSpiralForm lotisf = new LevelOrderTraversalInSpiralForm();
+        int[] arr = {1, 3, 2};
+        Node root = Create.createBinaryTree(arr);
+        Print.print(lotisf.findSpiral(root));
+        int[] arr2 = {9, 8, 11, 4, -1, 10, 12, 3, 7, -1, -1, -1, -1, 2, -1, 6, -1, 1, -1, 5, -1, 0};
+        Node root2 = Create.createBinaryTree(arr2);
+        Print.printBinaryTree(root2);
+        Print.print(lotisf.findSpiral(root2));
+
+         */
+
+
         /* Clone a Binary Tree
         CloneABinaryTree cabt = new CloneABinaryTree();
         int[][] matrix = {{6, 3, 8, -1}, {3, 1, 5, -1}, {8, -1, -1, -1}, {1, -1, -1, 3}, {5, -1, -1, 6}};
