@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Rearranging array
+
 Snake Case
 
 Earthquake and the Paint Shop

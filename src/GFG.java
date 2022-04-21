@@ -3,6 +3,19 @@ import java.util.Stack;
 public class GFG {
     public static void main(String[] args) {
 
+        /* Rearranging array
+        int[] arr = {4, 5, 1, 2, 3};
+        int[] ans = new int[5];
+        RearrangingArray.Rearrange(arr, 5, ans);
+        Print.print(ans);
+        int[] arr2 = {1, 2, 3, 4};
+        int[] ans2 = new int[4];
+        RearrangingArray.Rearrange(arr2, 4, ans2);
+        Print.print(ans2);
+
+         */
+
+
         /* Snake Case
         Print.print(SnakeCase.snakeCase("Geeks ForGeeks", 14));
         Print.print(SnakeCase.snakeCase("Here comes the garden", 21));
