@@ -1,7 +1,4 @@
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Queue;
+import java.util.*;
 
 public class Create {
     static Tree createRandomTree(int[][] matrix){
@@ -143,5 +140,13 @@ public class Create {
         }
         trav.next = head;
         return head;
+    }
+
+    public static Stack<Integer> createStack(int[] arr) {
+        Stack<Integer> s = new Stack<>();
+        for(int iter : arr){
+            s.push(iter);
+        }
+        return s;
     }
 }
