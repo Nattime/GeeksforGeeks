@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Snake Case
+
 Earthquake and the Paint Shop
 
 Clone a stack without using extra space
