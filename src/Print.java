@@ -48,7 +48,7 @@ public class Print {
             System.out.print(node.getData() + " ");
         }
     }
-    public static void print(List list){
+    public static <T> void print(List<T> list){
         if(list == null || list.isEmpty()){
             System.out.println("Is empty");
         }else{
@@ -164,5 +164,18 @@ public class Print {
                 System.out.println();
             }
         }
+    }
+
+    public static <T> void print(T[] arr, boolean newLine) {
+        if(newLine){
+            for(T iter : arr){
+                System.out.println(iter.toString());
+            }
+        }else{
+            for(T iter : arr){
+                System.out.print(iter.toString() + " ");
+            }
+        }
+        System.out.println();
     }
 }
