@@ -3,6 +3,13 @@ import java.util.Stack;
 public class GFG {
     public static void main(String[] args) {
 
+        EarthquakeAndThePaintShop eatps = new EarthquakeAndThePaintShop();
+        String[] arr = {"2234597891 zmxvvxbcij 8800654113 jihgfedcba", "1234567891 zxyabcvapo 0123434908 padmadngaa", "1234567891 abcdefghij 9876543219 jihgfedcba", "2234597891 zmxvvxbcij 8800654113 jihgfedcba", "9120121291 zmxvvxbcij 0912114113 mnvxbedcba"};
+        Print.print(eatps.sortedStrings(5, arr), true);
+        String[] arr2 = {"3122049353 onafrnbhtr 9822827304 yzfhdgzcvx", "3077357272 tojkoumxxs 0732733933 hbivwmrjhj", "2992299540 lpvkgykmlk 6946169466 vdqwvywwgg", "3077357272 tojkoumxxs 0732733933 hbivwmrjhj"};
+        Print.print(eatps.sortedStrings(4, arr2), true);
+
+
         /* Clone a stack without using extra space
         CloneAStackWithoutUsingExtraSpace caswues = new CloneAStackWithoutUsingExtraSpace();
         int[] arr = {1, 1, 2, 2, 3, 4, 5, 5, 6, 7};
