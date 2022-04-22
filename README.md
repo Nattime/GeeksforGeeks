@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Compute Before Matrix
+
 Penalty Shooters
 
 Rearranging array
