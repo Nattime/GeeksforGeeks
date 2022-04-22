@@ -3,6 +3,14 @@ import java.util.Stack;
 public class GFG {
     public static void main(String[] args) {
 
+        /* Lower case to upper case
+        LowerCaseToUpperCase lctuc = new LowerCaseToUpperCase();
+        Print.print(lctuc.to_upper("geeks"));
+        Print.print(lctuc.to_upper("geeksforgeeks"));
+
+         */
+
+
         /* Compute Before Matrix
         ComputeBeforeMatrix cbm = new ComputeBeforeMatrix();
         int[][] matrix = {{1, 3, 6}, {3, 7, 11}};

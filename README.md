@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Lower case to upper case
+
 Compute Before Matrix
 
 Penalty Shooters
