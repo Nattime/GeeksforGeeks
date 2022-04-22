@@ -178,4 +178,13 @@ public class Print {
         }
         System.out.println();
     }
+
+    public static void print(int[][] matrix) {
+        for(int[] outer : matrix){
+            for(int in : outer){
+                System.out.print(in + " ");
+            }System.out.println();
+        }
+        System.out.println();
+    }
 }
