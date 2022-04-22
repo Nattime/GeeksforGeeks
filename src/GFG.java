@@ -3,14 +3,14 @@ import java.util.Stack;
 public class GFG {
     public static void main(String[] args) {
 
-//        /* Compute Before Matrix
+        /* Compute Before Matrix
         ComputeBeforeMatrix cbm = new ComputeBeforeMatrix();
         int[][] matrix = {{1, 3, 6}, {3, 7, 11}};
         Print.print(cbm.computeBeforeMatrix(2, 3, matrix));
         int[][] matrix2 = {{1, 3, 5}};
         Print.print(cbm.computeBeforeMatrix(1, 3, matrix2));
 
-//         */
+         */
 
 
         /* Penalty Shooters
