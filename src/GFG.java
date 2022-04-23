@@ -3,6 +3,13 @@ import java.util.Stack;
 public class GFG {
     public static void main(String[] args) {
 
+        /* Break Numbers [Duplicate problem]
+        Print.print(BreakNumbersDuplicateProblem.countWays(3L));
+        Print.print(BreakNumbersDuplicateProblem.countWays(1L));
+
+         */
+
+
         /* Lower case to upper case
         LowerCaseToUpperCase lctuc = new LowerCaseToUpperCase();
         Print.print(lctuc.to_upper("geeks"));
