@@ -3,6 +3,14 @@ import java.util.Stack;
 public class GFG {
     public static void main(String[] args) {
 
+        AkkuAndBinaryNumbers aabn = new AkkuAndBinaryNumbers();
+        Print.print(aabn.solve(11L, 19L));
+        Print.print(aabn.solve(14L, 19L));
+        Print.print(aabn.solve(1L, 10000L));
+        Print.print(aabn.solve(1L, (long)(Math.pow(10, 18))));
+
+
+
         /* Break Numbers [Duplicate problem]
         Print.print(BreakNumbersDuplicateProblem.countWays(3L));
         Print.print(BreakNumbersDuplicateProblem.countWays(1L));
