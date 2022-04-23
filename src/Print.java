@@ -187,4 +187,10 @@ public class Print {
         }
         System.out.println();
     }
+
+    public static <T> void print(Set<T> set) {
+        for(T iter : set){
+            System.out.print(iter + " ");
+        }System.out.println();
+    }
 }
