@@ -1,14 +1,19 @@
 import java.util.Stack;
 
-public class GFG {
-    public static void main(String[] args) {
+public class GFG{
+    public static void main(String[] args){
 
+//        Print.testPrint();
+//        Print.print(1);
+
+        /* Akku and Binary Numbers
         AkkuAndBinaryNumbers aabn = new AkkuAndBinaryNumbers();
         Print.print(aabn.solve(11L, 19L));
         Print.print(aabn.solve(14L, 19L));
         Print.print(aabn.solve(1L, 10000L));
         Print.print(aabn.solve(1L, (long)(Math.pow(10, 18))));
 
+         */
 
 
         /* Break Numbers [Duplicate problem]
@@ -90,10 +95,10 @@ public class GFG {
         /* Insertion Sort for Singly Linked List
         int[] arr = {30, 23, 28, 30, 11, 14, 19, 16, 21, 25};
         Node root = Create.createNodeLinkedList(arr);
-        Print.print(InsertionSortForSinglyLinkedList.insertionSort(root));
+        Print.printNodeLinkedList(InsertionSortForSinglyLinkedList.insertionSort(root));
         int[] arr2 = {19, 20, 16, 12, 29, 30};
         Node root2 = Create.createNodeLinkedList(arr2);
-        Print.print(InsertionSortForSinglyLinkedList.insertionSort(root2));
+        Print.printNodeLinkedList(InsertionSortForSinglyLinkedList.insertionSort(root2));
 
          */
 
@@ -168,11 +173,11 @@ public class GFG {
         /* Make Binary Tree From Linked List
         int[] arr = {10, 12, 15, 25, 30, 36};
         Node node = Create.createNodeLinkedList(arr);
-        Print.print(node);
+        Print.printNodeLinkedList(node);
         Print.printBinaryTree(MakeBinaryTreeFromLinkedList.convert(node, null));
         int[] arr2 = {5, 4, 3, 2, 1};
         Node node2 = Create.createNodeLinkedList(arr2);
-        Print.print(node2);
+        Print.printNodeLinkedList(node2);
         Print.printBinaryTree(MakeBinaryTreeFromLinkedList.convert(node2, null));
 
          */
@@ -216,10 +221,10 @@ public class GFG {
         RotateALinkedList rall = new RotateALinkedList();
         int[] arr = {2, 4, 7, 8, 9};
         Node root = Create.createNodeLinkedList(arr);
-        Print.print(rall.rotate(root, 3));
+        Print.printNodeLinkedList(rall.rotate(root, 3));
         int[] arr2 = {1, 2, 3, 4, 5, 6, 7, 8};
         Node root2 = Create.createNodeLinkedList(arr2);
-        Print.print(rall.rotate(root2, 4));
+        Print.printNodeLinkedList(rall.rotate(root2, 4));
 
          */
 
@@ -228,7 +233,7 @@ public class GFG {
         Print.print(ValidSubstring.findMaxLen("(()("));
         Print.print(ValidSubstring.findMaxLen("()(())("));
 
-         */
+        */
 
 
         /* Equilibrium point

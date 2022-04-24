@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Create {
+public class Create{
     static Tree createRandomTree(int[][] matrix){
         Map<Integer, Tree> m = new HashMap<>();
         System.out.println(matrix.length + " len ");
@@ -19,6 +19,7 @@ public class Create {
 
         return m.get(matrix[0][0]);
     }
+
     static Tree setTree(int data, Map<Integer, Tree> m){
         if(data == -1){
             return null;
@@ -38,12 +39,13 @@ public class Create {
         }
         return binaryTreeHelper(arr);
     }
+
     static Node binaryTreeHelper(int[] arr){
         Node root = new Node(arr[0]);
         Queue<Node> q = new LinkedList<>();
         q.add(root);
 
-        for(int i = 1; i < arr.length; i++){
+        for(int i = 1;i < arr.length;i++){
             Node curr = q.remove();
             if(arr[i] == -1){
                 curr.setLeft(null);
@@ -65,6 +67,7 @@ public class Create {
         }
         return root;
     }
+
     static void transformTree(Node root){
         Queue<Node> q = new LinkedList<>();
         q.add(root);
@@ -87,16 +90,18 @@ public class Create {
             }
         }
     }
+
     static Node createBST(int[] arr){
         if(arr.length < 1){
             return null;
         }
         Node root = new Node(arr[0]);
-        for(int i = 1; i < arr.length; i++){
+        for(int i = 1;i < arr.length;i++){
             bstAdd(root, arr[i]);
         }
         return root;
     }
+
     static void bstAdd(Node root, int num){
         if(root != null){
             if(root.data > num){
@@ -116,25 +121,27 @@ public class Create {
 
 
     }
+
     static Node createNodeLinkedList(int[] arr){
         if(arr == null || arr.length == 0){
             return null;
         }
         Node head = new Node(arr[0]);
         Node trav = head;
-        for(int i = 1; i < arr.length; i++){
+        for(int i = 1;i < arr.length;i++){
             trav.left = trav.next = new Node(arr[i]);
             trav = trav.next;
         }
         return head;
     }
+
     static Node createCircularLinkedList(int[] arr){
         if(arr == null || arr.length == 0){
             return null;
         }
         Node head = new Node(arr[0]);
         Node trav = head;
-        for(int i = 1; i < arr.length; i++){
+        for(int i = 1;i < arr.length;i++){
             trav.right = trav.next = new Node(arr[i]);
             trav = trav.next;
         }
@@ -142,7 +149,7 @@ public class Create {
         return head;
     }
 
-    public static Stack<Integer> createStack(int[] arr) {
+    public static Stack<Integer> createStack(int[] arr){
         Stack<Integer> s = new Stack<>();
         for(int iter : arr){
             s.push(iter);
