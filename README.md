@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Addition of submatrix
+
 Akku and Binary Numbers
 
 Break Numbers[Duplicate problem]
