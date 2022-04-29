@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Magical String[Duplicate Problem]
+
 Swapping Triangles
 
 Max Min

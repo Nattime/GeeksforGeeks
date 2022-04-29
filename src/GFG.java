@@ -3,6 +3,13 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Magical String[Duplicate Problem]
+        Print.print(MagicalStringDuplicateProblem.magicalString("varun"));
+        Print.print(MagicalStringDuplicateProblem.magicalString("akshay"));
+
+         */
+
+
         /* Swapping Triangles
         SwappingTriangles st = new SwappingTriangles();
         int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
