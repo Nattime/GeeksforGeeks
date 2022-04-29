@@ -156,4 +156,18 @@ public class Create{
         }
         return s;
     }
+
+    public static ArrayList<ArrayList<Integer>> createArrayList(int[][] mat){
+        ArrayList<ArrayList<Integer>> ret = new ArrayList<>();
+
+        for(int[] outer : mat){
+            ArrayList<Integer> list = new ArrayList<>();
+            for(int iter : outer){
+                list.add(iter);
+            }
+            ret.add(list);
+        }
+
+        return ret;
+    }
 }
