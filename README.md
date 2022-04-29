@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Inverse Permutation
+
 Program to print reciprocal of letters - copy
 
 Front-Back Transformation - copy

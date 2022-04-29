@@ -3,6 +3,15 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Inverse Permutation
+        int[] arr = {1, 4, 3, 2};
+        Print.print(InversePermutation.inversePermutation(arr, 4));
+        int[] arr2 = {2, 3, 4, 5, 1};
+        Print.print(InversePermutation.inversePermutation(arr2, 5));
+
+         */
+
+
         /* Program to print reciprocal of letters - copy
         Print.print(ProgramToPrintReciprocalOfLettersCopy.reciprocalString("ab C"));
         Print.print(ProgramToPrintReciprocalOfLettersCopy.reciprocalString("Ish"));
