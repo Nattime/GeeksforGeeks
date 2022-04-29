@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Flipping bits in Binary Format
+
 Sort a String
 
 Nth Pentagonal Number

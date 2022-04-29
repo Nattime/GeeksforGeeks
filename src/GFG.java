@@ -4,6 +4,14 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Flipping bits in Binary Format
+        FlippingBitsInBinaryFormat fbibf = new FlippingBitsInBinaryFormat();
+        Print.print(fbibf.flipBits(1L));
+        Print.print(fbibf.flipBits(2L));
+
+         */
+
+
         /* Sort a String
         SortAString sas = new SortAString();
         Print.print(sas.sort("edcab"));
