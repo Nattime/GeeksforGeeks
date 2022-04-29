@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Check if divisible by 4
+
 Flipping bits in Binary Format
 
 Sort a String

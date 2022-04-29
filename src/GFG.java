@@ -4,6 +4,14 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Check if divisible by 4
+        CheckIfDivisibleByFour cidb4 = new CheckIfDivisibleByFour();
+        Print.print(cidb4.divisibleBy4("1124"));
+        Print.print(cidb4.divisibleBy4("7"));
+
+         */
+
+
         /* Flipping bits in Binary Format
         FlippingBitsInBinaryFormat fbibf = new FlippingBitsInBinaryFormat();
         Print.print(fbibf.flipBits(1L));
