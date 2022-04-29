@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Front-Back Transformation - copy
+
 Magical String[Duplicate Problem]
 
 Swapping Triangles

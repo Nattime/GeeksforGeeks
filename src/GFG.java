@@ -3,6 +3,14 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Front-Back Transformation - copy
+        FrontBackTransformationCopy fbtc = new FrontBackTransformationCopy();
+        Print.print(fbtc.convert("Hello"));
+        Print.print(fbtc.convert("GfG"));
+
+         */
+
+
         /* Magical String[Duplicate Problem]
         Print.print(MagicalStringDuplicateProblem.magicalString("varun"));
         Print.print(MagicalStringDuplicateProblem.magicalString("akshay"));
