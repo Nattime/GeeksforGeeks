@@ -4,6 +4,14 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Sort a String
+        SortAString sas = new SortAString();
+        Print.print(sas.sort("edcab"));
+        Print.print(sas.sort("xzy"));
+
+         */
+
+
         /* Nth Pentagonal Number
         Print.print(NthPentagonalNumber.getNthPentagonalNum(1L));
         Print.print(NthPentagonalNumber.getNthPentagonalNum(2L));

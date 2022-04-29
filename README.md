@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Sort a String
+
 Nth Pentagonal Number
 
 Sum of dependencies in a graph
