@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Max Min
+
 Largest value in each level
 
 Addition of submatrix

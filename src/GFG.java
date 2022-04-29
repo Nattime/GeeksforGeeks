@@ -3,6 +3,15 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Max Min
+        int[] arr = {-2, 1, -4, 5, 3};
+        Print.print(MaxMin.findSum(arr, 5));
+        int[] arr2 = {1, 3, 4, 1};
+        Print.print(MaxMin.findSum(arr2, 4));
+
+         */
+
+
         /* Largest value in each level
         LargestValueInEachLevel lviel = new LargestValueInEachLevel();
         int[] arr = {1, 2, 3};
