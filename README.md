@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Sum of dependencies in a graph
+
 Inverse Permutation
 
 Program to print reciprocal of letters - copy

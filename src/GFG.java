@@ -1,7 +1,22 @@
+import java.util.ArrayList;
 import java.util.Stack;
 
 public class GFG{
     public static void main(String[] args){
+
+        /* Sum of dependencies in a graph
+        SumOfDependenciesInAGraph sodiag = new SumOfDependenciesInAGraph();
+        int[][] mat = {{0, 2}, {0, 3}, {1, 3}, {2, 3}};
+        ArrayList<ArrayList<Integer>> list = Create.createArrayList(mat);
+        Print.print(list);
+        Print.print(sodiag.sumOfDependencies(list, 4));
+        int[][] mat2 = {{0, 3}, {0, 2}, {0, 1}};
+        ArrayList<ArrayList<Integer>> list2 = Create.createArrayList(mat2);
+        Print.print(list2);
+        Print.print(sodiag.sumOfDependencies(list2, 4));
+
+         */
+
 
         /* Inverse Permutation
         int[] arr = {1, 4, 3, 2};
