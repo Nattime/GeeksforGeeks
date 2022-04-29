@@ -3,6 +3,13 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Program to print reciprocal of letters - copy
+        Print.print(ProgramToPrintReciprocalOfLettersCopy.reciprocalString("ab C"));
+        Print.print(ProgramToPrintReciprocalOfLettersCopy.reciprocalString("Ish"));
+
+         */
+
+
         /* Front-Back Transformation - copy
         FrontBackTransformationCopy fbtc = new FrontBackTransformationCopy();
         Print.print(fbtc.convert("Hello"));

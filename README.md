@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Program to print reciprocal of letters - copy
+
 Front-Back Transformation - copy
 
 Magical String[Duplicate Problem]
