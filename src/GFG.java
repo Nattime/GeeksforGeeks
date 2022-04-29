@@ -4,6 +4,15 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Kronecker Product
+        KroneckerProduct kp = new KroneckerProduct();
+        int[][] A = {{1, 2}, {3, 4}};
+        int[][] B = {{0, 5}, {6, 7}};
+        Print.print(kp.kroneckerProduct(2, 2, 2, 2, A, B));
+
+         */
+
+
         /* Check if divisible by 4
         CheckIfDivisibleByFour cidb4 = new CheckIfDivisibleByFour();
         Print.print(cidb4.divisibleBy4("1124"));
