@@ -3,6 +3,18 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Largest value in each level
+        LargestValueInEachLevel lviel = new LargestValueInEachLevel();
+        int[] arr = {1, 2, 3};
+        Node root = Create.createBinaryTree(arr);
+        Print.print(lviel.largestValues(root));
+        int[] arr2 = {4, 9, 2, 3, 5, -1, 7};
+        Node root2 = Create.createBinaryTree(arr2);
+        Print.print(lviel.largestValues(root2));
+
+         */
+
+
         /* Addition of submatrix
         AdditionOfSubmatrix aos = new AdditionOfSubmatrix();
         int[][] matrix = {{1, 2, 3, 4, 5, 6}, {7, 8, 9, 10, 11, 12}, {13, 14, 15, 16, 17, 18}, {19, 20, 21, 22, 23, 24}, {25, 26, 27, 28, 29, 30}};
