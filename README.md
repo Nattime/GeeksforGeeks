@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Nth Pentagonal Number
+
 Sum of dependencies in a graph
 
 Inverse Permutation
