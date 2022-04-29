@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Swapping Triangles
+
 Max Min
 
 Largest value in each level

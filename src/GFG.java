@@ -3,6 +3,16 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Swapping Triangles
+        SwappingTriangles st = new SwappingTriangles();
+        int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        Print.print(st.swapTriangle(3, matrix));
+        int[][] matrix2 = {{2, 7, 3, 1}, {10, 1, 5, 1}, {10, 4, 7, 6}, {6, 9, 1, 8}};
+        Print.print(st.swapTriangle(4, matrix2));
+
+         */
+
+
         /* Max Min
         int[] arr = {-2, 1, -4, 5, 3};
         Print.print(MaxMin.findSum(arr, 5));
