@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Addition of two square matrices
+
 Square Divisors
 
 Jumpy Ball

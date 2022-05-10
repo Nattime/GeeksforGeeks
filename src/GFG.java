@@ -4,6 +4,20 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Addition of two square matrices
+        AdditionOfTwoSquareMatrices aotsm = new AdditionOfTwoSquareMatrices();
+        int[][] matrixA = {{1, 2}, {3, 4}};
+        int[][] matrixB = {{4, 3}, {2, 1}};
+        aotsm.Addition(matrixA, matrixB);
+        Print.print(matrixA);
+        int[][] matrixA2 = {{2, 2}, {2, 2}};
+        int[][] matrixB2 = {{3, 3}, {3, 3}};
+        aotsm.Addition(matrixA2, matrixB2);
+        Print.print(matrixA2);
+
+         */
+
+
         /* Square Divisors
         Print.print(SquareDivisors.squareFactor(36));
         Print.print(SquareDivisors.squareFactor(60));
