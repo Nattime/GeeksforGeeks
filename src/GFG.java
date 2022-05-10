@@ -4,6 +4,16 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Starting Point
+        StartingPoint sp = new StartingPoint();
+        int[][] matrix = {{1, 0}, {0, 1}, {1, 1}};
+        Print.print(sp.findStartingPoint(2, 2, matrix));
+        int[][] matrix2 = {{1, 1}};
+        Print.print(sp.findStartingPoint(1, 2, matrix2));
+
+         */
+
+
         /* Triangle growing downwards
         TriangleGrowingDownwards.printTriangleDownwards("geeks");
         TriangleGrowingDownwards.printTriangleDownwards("thisi");

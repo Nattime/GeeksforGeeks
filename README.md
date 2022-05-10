@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Starting Point
+
 Triangle growing downwards
 
 Find duplicates under given constraints
