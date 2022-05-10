@@ -4,6 +4,18 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Maximum Possible Sum of Products
+        MaximumPossibleSumOfProducts mpsop = new MaximumPossibleSumOfProducts();
+        long[] A = {1, 2, 3};
+        long[] B = {4, 5, 1};
+        Print.print(mpsop.MaxSum(A, B, 3));
+        long[] A2 = {1, 2};
+        long[] B2 = {4, 4};
+        Print.print(mpsop.MaxSum(A2, B2, 2));
+
+         */
+
+
         /* Pattern of Strings
         PatternOfStrings pos = new PatternOfStrings();
         Print.print(pos.pattern("Geek"));

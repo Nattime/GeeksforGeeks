@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Maximum Possible Sum of Products
+
 Pattern of Strings
 
 Triangle shrinking downwards
