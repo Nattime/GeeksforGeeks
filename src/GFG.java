@@ -4,6 +4,17 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Maximum Winning score
+        int[] arr = {4, 2, 8, 2, 1, 3, 4};
+        Node root = Create.createBinaryTree(arr);
+        Print.print(MaximumWinningScore.findMaxScore(root));
+        int[] arr2 = {10,7,5,-1,-1,-1,1};
+        Node root2 = Create.createBinaryTree(arr2);
+        Print.print(MaximumWinningScore.findMaxScore(root2));
+
+         */
+
+
         /* Recursively print all sentences that can be formed from list of word lists
         String[][] list = {{"you", "we"}, {"have", "are"}};
         Print.print(RecursivelyPrintAllSentencesThatCanBeFormedFromListOfWordLists.sentences(list));
