@@ -4,6 +4,13 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Jumpy Ball
+        Print.print(JumpyBall.jumpyBall(10));
+        Print.print(JumpyBall.jumpyBall(20));
+
+         */
+
+
         /* Maximum Possible Sum of Products
         MaximumPossibleSumOfProducts mpsop = new MaximumPossibleSumOfProducts();
         long[] A = {1, 2, 3};
