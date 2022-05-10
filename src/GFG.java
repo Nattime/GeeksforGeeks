@@ -4,6 +4,13 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Triangle growing downwards
+        TriangleGrowingDownwards.printTriangleDownwards("geeks");
+        TriangleGrowingDownwards.printTriangleDownwards("thisi");
+
+         */
+
+
         /* Find duplicates under given constraints
         FindDuplicatesUnderGivenConstraints fdugc = new FindDuplicatesUnderGivenConstraints();
         int[] A = {1, 1, 1, 1, 1, 5, 7, 10, 20, 30};
