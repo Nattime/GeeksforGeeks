@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Triangle shrinking downwards
+
 Rope Cutting
 
 Reverse alternate words

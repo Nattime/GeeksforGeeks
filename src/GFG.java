@@ -4,6 +4,13 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Triangle shrinking downwards
+        Print.print(TriangleShrinkingDownwards.triDownwards("Geeks"));
+        Print.print(TriangleShrinkingDownwards.triDownwards("@io30"));
+
+         */
+
+
         /* Rope Cutting
         int[] arr = {5, 1, 1, 2, 3, 5};
         Print.print(RopeCutting.ropeCutting(arr, 6));
