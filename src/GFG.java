@@ -4,6 +4,15 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Recursively print all sentences that can be formed from list of word lists
+        String[][] list = {{"you", "we"}, {"have", "are"}};
+        Print.print(RecursivelyPrintAllSentencesThatCanBeFormedFromListOfWordLists.sentences(list));
+        String[][] list2 = {{"bowl", "walk", "sunflower", "movie"},{"table", "bottle", "fan", "sleep"}};
+        Print.print(RecursivelyPrintAllSentencesThatCanBeFormedFromListOfWordLists.sentences(list2));
+
+         */
+
+
         /* Maximum Diamonds
         int[] A = {2, 1, 7, 4, 2};
         Print.print(MaximumDiamonds.maxDiamonds(A, 5, 3));

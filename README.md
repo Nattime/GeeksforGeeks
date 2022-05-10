@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Recursively print all sentences that can be formed from list of word lists
+
 Maximum Diamonds
 
 Addition of two square matrices
