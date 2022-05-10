@@ -4,6 +4,14 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Reverse alternate words
+        ReverseAlternateWords raw = new ReverseAlternateWords();
+        Print.print(raw.reverseAlternate("geeks for geeks"));
+        Print.print(raw.reverseAlternate("hello there peter pan"));
+
+         */
+
+
         /* Maximum sum leaf to root path
         int[] arr = {1, 2, 3};
         Node root = Create.createBinaryTree(arr);
