@@ -4,6 +4,14 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Pattern of Strings
+        PatternOfStrings pos = new PatternOfStrings();
+        Print.print(pos.pattern("Geek"));
+        Print.print(pos.pattern("G*g"));
+
+         */
+
+
         /* Triangle shrinking downwards
         Print.print(TriangleShrinkingDownwards.triDownwards("Geeks"));
         Print.print(TriangleShrinkingDownwards.triDownwards("@io30"));

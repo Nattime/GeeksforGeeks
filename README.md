@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Pattern of Strings
+
 Triangle shrinking downwards
 
 Rope Cutting
