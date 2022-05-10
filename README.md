@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Rope Cutting
+
 Reverse alternate words
 
 Maximum sum leaf to root path

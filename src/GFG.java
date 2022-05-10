@@ -4,6 +4,13 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Rope Cutting
+        int[] arr = {5, 1, 1, 2, 3, 5};
+        Print.print(RopeCutting.ropeCutting(arr, 6));
+        int[] arr2 = {5, 1, 6, 9, 8, 11, 2, 2, 6, 5};
+        Print.print(RopeCutting.RopeCutting(arr2, 10));
+
+
         /* Reverse alternate words
         ReverseAlternateWords raw = new ReverseAlternateWords();
         Print.print(raw.reverseAlternate("geeks for geeks"));
