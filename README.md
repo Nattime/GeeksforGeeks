@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Ishwar and his proposals
+
 Maximum Winning score
 
 Recursively print all sentences that can be formed from list of word lists

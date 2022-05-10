@@ -4,6 +4,16 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Ishwar and his proposals
+        IshwarAndHisProposals iahp = new IshwarAndHisProposals();
+        int[] arr = {1, 2, 3, 4};
+        Print.print(iahp.acceptedProposals(arr, 4));
+        int[] arr2 = {6, 9, 1, 4, 8};
+        Print.print(iahp.acceptedProposals(arr2, 5));
+
+         */
+
+
         /* Maximum Winning score
         int[] arr = {4, 2, 8, 2, 1, 3, 4};
         Node root = Create.createBinaryTree(arr);
