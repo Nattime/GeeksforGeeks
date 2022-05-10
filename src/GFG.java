@@ -4,6 +4,14 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Palindromic Subsequences
+        PalindromicSubsequences ps = new PalindromicSubsequences();
+        Print.print(ps.MinRemove(5, "10001"));
+        Print.print(ps.MinRemove(8, "10001001"));
+
+         */
+
+
         /* Kronecker Product
         KroneckerProduct kp = new KroneckerProduct();
         int[][] A = {{1, 2}, {3, 4}};

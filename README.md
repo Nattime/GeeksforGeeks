@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Palindromic Subsequences
+
 Kronecker Product
 
 Check if divisible by 4
