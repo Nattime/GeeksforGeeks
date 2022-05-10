@@ -4,6 +4,13 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Square Divisors
+        Print.print(SquareDivisors.squareFactor(36));
+        Print.print(SquareDivisors.squareFactor(60));
+
+         */
+
+
         /* Jumpy Ball
         Print.print(JumpyBall.jumpyBall(10));
         Print.print(JumpyBall.jumpyBall(20));

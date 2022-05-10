@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Square Divisors
+
 Jumpy Ball
 
 Maximum Possible Sum of Products
