@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Ordering of strings
+
 Starting Point
 
 Triangle growing downwards

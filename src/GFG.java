@@ -4,6 +4,16 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Ordering of strings
+        OrderingOfStrings oos = new OrderingOfStrings();
+        String[] arr = {"a", "ab", "abc"};
+        Print.print(oos.orderString(arr, 3));
+        String[] arr2 = {"abc", "abc"};
+        Print.print(oos.orderString(arr2, 2));
+
+         */
+
+
         /* Starting Point
         StartingPoint sp = new StartingPoint();
         int[][] matrix = {{1, 0}, {0, 1}, {1, 1}};
