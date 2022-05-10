@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Maximum Diamonds
+
 Addition of two square matrices
 
 Square Divisors

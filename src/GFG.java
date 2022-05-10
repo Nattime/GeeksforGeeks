@@ -4,6 +4,15 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Maximum Diamonds
+        int[] A = {2, 1, 7, 4, 2};
+        Print.print(MaximumDiamonds.maxDiamonds(A, 5, 3));
+        int[] A2 = {7, 1, 2};
+        Print.print(MaximumDiamonds.maxDiamonds(A2, 3, 2));
+
+         */
+
+
         /* Addition of two square matrices
         AdditionOfTwoSquareMatrices aotsm = new AdditionOfTwoSquareMatrices();
         int[][] matrixA = {{1, 2}, {3, 4}};
