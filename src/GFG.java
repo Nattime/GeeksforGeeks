@@ -4,6 +4,17 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Maximum sum leaf to root path
+        int[] arr = {1, 2, 3};
+        Node root = Create.createBinaryTree(arr);
+        Print.print(MaximumSumLeaftoRootPath.maxPathSum(root));
+        int[] arr2 = {10, -2, 7, 8, -4};
+        Node root2 = Create.createBinaryTree(arr2);
+        Print.print(MaximumSumLeaftoRootPath.maxPathSum(root2));
+
+         */
+
+
         /* Palindromic Subsequences
         PalindromicSubsequences ps = new PalindromicSubsequences();
         Print.print(ps.MinRemove(5, "10001"));
