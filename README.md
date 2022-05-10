@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Find duplicates under given constraints
+
 Ishwar and his proposals
 
 Maximum Winning score

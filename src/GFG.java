@@ -4,6 +4,16 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Find duplicates under given constraints
+        FindDuplicatesUnderGivenConstraints fdugc = new FindDuplicatesUnderGivenConstraints();
+        int[] A = {1, 1, 1, 1, 1, 5, 7, 10, 20, 30};
+        Print.print(fdugc.findDuplicate(A));
+        int[] A2 = {1, 2, 3, 3, 3, 3, 3, 5, 9, 10};
+        Print.print(fdugc.findDuplicate(A2));
+
+         */
+
+
         /* Ishwar and his proposals
         IshwarAndHisProposals iahp = new IshwarAndHisProposals();
         int[] arr = {1, 2, 3, 4};
