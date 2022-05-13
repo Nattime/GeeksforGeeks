@@ -4,6 +4,13 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Pattern-1
+        Print.print(Pattern1.findThePattern(4));
+        Print.print(Pattern1.findThePattern(6));
+
+         */
+
+
         /* Perfect Reversible String
         PerfectReversibleString prs = new PerfectReversibleString();
         Print.print(prs.isReversible("ab", 2));

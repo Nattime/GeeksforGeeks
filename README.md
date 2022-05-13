@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Pattern-1
+
 Perfect Reversible String
 
 Triangular Number
