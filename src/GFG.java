@@ -4,6 +4,14 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Triangular Number
+        TriangularNumber tn = new TriangularNumber();
+        Print.print(tn.isTriangular(55));
+        Print.print(tn.isTriangular(56));
+
+         */
+
+
         /* Can Make Triangle
         CanMakeTriangle cmt = new CanMakeTriangle();
         int[] A = {1, 2, 2, 4};

@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Triangular Number
+
 Can Make Triangle
 
 Arya's Long String
