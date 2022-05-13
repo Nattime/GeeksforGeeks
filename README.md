@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Arya's Long String
+
 Ordering of strings
 
 Starting Point
