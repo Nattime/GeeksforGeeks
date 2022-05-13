@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Sort The Array
+
 Count Alphabets
 
 Permutations in array

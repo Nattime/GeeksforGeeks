@@ -4,6 +4,16 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Sort The Array
+        SortTheArray sta = new SortTheArray();
+        int[] arr = {1, 5, 3, 2};
+        Print.print(sta.sortArr(arr, 4));
+        int[] arr2 = {3, 1};
+        Print.print(sta.sortArr(arr2, 2));
+
+         */
+
+
         /* Count Alphabets
         Print.print(CountAlphabets.Count("adjfjh23"));
         Print.print(CountAlphabets.Count("n0ji#k$"));
