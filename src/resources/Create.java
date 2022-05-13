@@ -1,3 +1,7 @@
+package resources;
+
+import resources.Node;
+
 import java.util.*;
 
 public class Create{

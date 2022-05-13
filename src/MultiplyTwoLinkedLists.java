@@ -1,5 +1,7 @@
+import resources.Node;
+
 public class MultiplyTwoLinkedLists {
-    public static long multiplyTwoLists(Node l1,Node l2){
+    public static long multiplyTwoLists(Node l1, Node l2){
         //add code here.
         long num1 = 0L;
         long num2 = 0L;

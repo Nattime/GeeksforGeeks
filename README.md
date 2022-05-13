@@ -122,7 +122,7 @@ Remove loop in Linked List
 
 Level order traversal in spiral form
 
-Clone a Binary Tree
+Clone a Binary resources.Tree
 
 Postorder Traversal (Iterative)
 
@@ -130,9 +130,9 @@ Preorder Traversal (Iterative)
 
 Inorder Traversal (Iterative)
 
-Make Binary Tree From Linked List
+Make Binary resources.Tree From Linked List
 
-Height of Binary Tree
+Height of Binary resources.Tree
 
 Merge two BST
 
@@ -154,7 +154,7 @@ Even Odd
 
 Two Repeated Elements
 
-Ancestors in Binary Tree
+Ancestors in Binary resources.Tree
 
 Check whether BST contains Dead End
 

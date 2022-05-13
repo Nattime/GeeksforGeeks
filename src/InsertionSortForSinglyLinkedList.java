@@ -1,3 +1,5 @@
+import resources.Node;
+
 public class InsertionSortForSinglyLinkedList {
     public static Node insertionSort(Node head_ref)
     {

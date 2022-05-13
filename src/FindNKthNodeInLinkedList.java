@@ -1,3 +1,5 @@
+import resources.Node;
+
 public class FindNKthNodeInLinkedList {
     public static int nknode(Node head, int k)
     {

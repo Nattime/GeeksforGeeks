@@ -1,3 +1,5 @@
+import resources.Node;
+
 public class SortedInsertForCircularLinkedList {
     public static Node sortedInsert(Node head,int data)
     {

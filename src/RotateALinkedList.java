@@ -1,3 +1,5 @@
+import resources.Node;
+
 public class RotateALinkedList {
     public Node rotate(Node head, int k) {
         // add code here

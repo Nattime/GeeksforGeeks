@@ -1,3 +1,6 @@
+import resources.Node;
+import resources.Tree;
+
 import java.util.LinkedList;
 import java.util.Queue;
 

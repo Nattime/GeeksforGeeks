@@ -1,3 +1,5 @@
+import resources.Node;
+
 public class RemoveLoopInLinkedList {
     //Function to remove a loop in the linked list.
     public static void removeLoop(Node head){

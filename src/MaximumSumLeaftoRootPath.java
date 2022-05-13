@@ -1,3 +1,5 @@
+import resources.Node;
+
 public class MaximumSumLeaftoRootPath{
     public static int max = 0;
 

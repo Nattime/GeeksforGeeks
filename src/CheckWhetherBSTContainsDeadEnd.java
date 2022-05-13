@@ -1,3 +1,5 @@
+import resources.Node;
+
 public class CheckWhetherBSTContainsDeadEnd {
     public boolean isDeadEnd(Node root)
     {

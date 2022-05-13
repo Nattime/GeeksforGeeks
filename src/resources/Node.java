@@ -1,51 +1,49 @@
-import org.jetbrains.annotations.NotNull;
-
-import java.util.Iterator;
+package resources;
 
 public class Node{
-    int data;
-    Node next, prev, left, right;
+    public int data;
+    public Node next, prev, left, right;
 
-    Node(){
+    public Node(){
     }
 
-    Node(int data){
+    public Node(int data){
         setData(data);
         next = prev = left = right = null;
     }
 
-    void setData(int data){
+    public void setData(int data){
         this.data = data;
     }
 
-    void setNext(Node n){
+    public void setNext(Node n){
         right = next = n;
     }
 
-    void setPrev(Node n){
+    public void setPrev(Node n){
         left = prev = n;
     }
 
-    void setLeft(Node n){
+    public void setLeft(Node n){
         setPrev(n);
     }
 
-    void setRight(Node n){
+    public void setRight(Node n){
         setNext(n);
     }
 
-    int getData(){
+    public int getData(){
         return data;
     }
 
-    Node getPrev(){
+    public Node getPrev(){
         if(left != null){
             return left;
         }
         return prev;
     }
 
-    Node getNext(){
+    public Node getNext(){
         if(right != null){
             return right;
         }
@@ -57,11 +55,11 @@ public class Node{
         return getData() + " ";
     }
 
-    Node getLeft(){
+    public Node getLeft(){
         return getPrev();
     }
 
-    Node getRight(){
+    public Node getRight(){
         return getNext();
     }
 }
