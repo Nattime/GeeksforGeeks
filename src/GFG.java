@@ -4,6 +4,13 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Check if divisible by 5
+        Print.print(CheckIfDivisibleByFive.divisibleBy5("5"));
+        Print.print(CheckIfDivisibleByFive.divisibleBy5("1000001"));
+
+         */
+
+
         /* Count Substrings
         CountSubstrings cs = new CountSubstrings();
         Print.print(cs.countSubstr("10101"));

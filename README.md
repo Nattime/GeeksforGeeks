@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Check if divisible by 5
+
 Count Substrings
 
 Sum of distinct elements for a limited range
