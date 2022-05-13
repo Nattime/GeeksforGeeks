@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Can Make Triangle
+
 Arya's Long String
 
 Ordering of strings

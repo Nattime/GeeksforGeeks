@@ -4,6 +4,16 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Can Make Triangle
+        CanMakeTriangle cmt = new CanMakeTriangle();
+        int[] A = {1, 2, 2, 4};
+        Print.print(cmt.canMakeTriangle(A, A.length));
+        int[] A2 = {2, 10, 2, 10, 2};
+        Print.print(cmt.canMakeTriangle(A2, A2.length));
+
+         */
+
+
         /* Arya's Long String
         Print.print(AryasLongString.fun("WLRBBMQBHCDARZOWKKYHIDDQSCDXRJMOWFRXSJYBLDBEFSARCBYNECDYGGXXPKLORELLNMPAPQFWKHOPKMCOQHNWNKUEWHSQMGBBUQCLJJIVSWMDKQTBXIXMVTRRBLJPTNSNFWZQFJMAFADRRWSOFSBCNUVQHFFBSAQXWPQCACEHCHZVFRKMLNOZJKPQPXRJXKITZYXACBHHKICQCOENDTOMFGDWDWFCGPXIQVKUYTDLCGDEWHTACIOHORDTQKVWCSGSPQOQMSBOAGUWNNYQXNZLGDGWPBTRWBLNSADEUGUUMOQCDRUBETOKYXHOACHWDVMXXRDRYXLMNDQTUKWAGMLEJUUKWCIBXUBUMENMEYATDRMYDIAJXLOGHIQFMZH", 67621, 19144651, 'V'));
         Print.print(AryasLongString.fun("ABA", 3, 7, 'B'));
