@@ -4,6 +4,18 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Permutations in array
+        PermutationsInArray pia = new PermutationsInArray();
+        long[] a = {2, 1, 3};
+        long[] b = {7, 8, 9};
+        Print.print(pia.isPossible(a, b, a.length, 10L));
+        long[] a2 = {1, 2, 2, 1};
+        long[] b2 = {3, 3, 3, 4};
+        Print.print(pia.isPossible(a2, b2, a2.length, 5L));
+
+         */
+
+
         /* Adding Ones
         int[] a = {0, 0, 0};
         int[] updates = {1, 1, 2, 3};
