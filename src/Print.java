@@ -3,7 +3,8 @@ import org.jetbrains.annotations.NotNull;
 import java.util.*;
 
 public class Print{
-    public static boolean test = false;
+        public static boolean test = false;
+//    public static boolean test = true;
 
     public static void testPrint(){
         test = true;
@@ -47,7 +48,7 @@ public class Print{
         System.out.println();
     }
 
-    private static void print(long @NotNull [] arr){
+    private static void print(long[] arr){
         if(test) System.out.println("long arr");
         for(long iter : arr){
             System.out.print(iter + " ");
@@ -92,7 +93,25 @@ public class Print{
 
     public static <T> void print(T var){
         if(test) System.out.println("T");
-        System.out.println(var);
+        if(var instanceof short[]){
+            print((short[])var);
+        }else if(var instanceof int[]){
+            print((int[])var);
+        }else if(var instanceof long[]){
+            print((long[])var);
+        }else if(var instanceof float[]){
+            print((float[])var);
+        }else if(var instanceof double[]){
+            print((double[])var);
+        }else if(var instanceof char[]){
+            print((char[])var);
+        }else if(var instanceof String[]){
+            print((String[])var);
+        }else if(var instanceof boolean[]){
+            print((boolean[])var);
+        }else{
+            System.out.println(var);
+        }
     }
 
     public static <T> void print(List<T> list){
@@ -116,12 +135,14 @@ public class Print{
             while(root != null){
                 System.out.print(root.getData() + " ");
                 root = root.getRight();
-            }System.out.println();
+            }
+            System.out.println();
         }else{
             while(root != null){
                 System.out.print(root.getData() + " ");
                 root = root.getNext();
-            }System.out.println();
+            }
+            System.out.println();
         }
     }
 
