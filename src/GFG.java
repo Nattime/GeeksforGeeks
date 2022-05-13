@@ -4,6 +4,14 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Last index of a character in the string
+        LastIndexOfACharacterInTheString lioacits = new LastIndexOfACharacterInTheString();
+        Print.print(lioacits.LastIndex("Geeks", 'e'));
+        Print.print(lioacits.LastIndex("okiyh", 'z'));
+
+         */
+
+
         /* Check if divisible by 5
         Print.print(CheckIfDivisibleByFive.divisibleBy5("5"));
         Print.print(CheckIfDivisibleByFive.divisibleBy5("1000001"));
