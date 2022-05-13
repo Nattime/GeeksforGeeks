@@ -4,6 +4,18 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Sort in specific order
+        SortInSpecificOrder siso = new SortInSpecificOrder();
+        long[] arr = {1L, 2L, 3L, 5L, 4L, 7L, 10L};
+        siso.sortIt(arr, 7);
+        Print.print(arr);
+        long[] arr2 = {0, 4, 5, 3, 7, 2, 1};
+        siso.sortIt(arr2, 7);
+        Print.print(arr2);
+
+         */
+
+
         /* Upper case conversion
         UpperCaseConversion ucc = new UpperCaseConversion();
         Print.print(ucc.transform("i love programming"));
