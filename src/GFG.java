@@ -4,6 +4,14 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Perfect Reversible String
+        PerfectReversibleString prs = new PerfectReversibleString();
+        Print.print(prs.isReversible("ab", 2));
+        Print.print(prs.isReversible("aba", 3));
+
+         */
+
+
         /* Triangular Number
         TriangularNumber tn = new TriangularNumber();
         Print.print(tn.isTriangular(55));
