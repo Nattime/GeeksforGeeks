@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Adding Ones
+
 Last index of a character in the string
 
 Check if divisible by 5

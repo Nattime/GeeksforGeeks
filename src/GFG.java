@@ -4,6 +4,19 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Adding Ones
+        int[] a = {0, 0, 0};
+        int[] updates = {1, 1, 2, 3};
+        AddingOnes.update(a, 3, updates, 4);
+        Print.print(a);
+        int[] a2 = {0, 0};
+        int[] updates2 = {1, 1, 1};
+        AddingOnes.update(a2, 2, updates2, 3);
+        Print.print(a2);
+
+         */
+
+
         /* Last index of a character in the string
         LastIndexOfACharacterInTheString lioacits = new LastIndexOfACharacterInTheString();
         Print.print(lioacits.LastIndex("Geeks", 'e'));
