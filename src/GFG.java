@@ -4,6 +4,16 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Sum of distinct elements for a limited range
+        SumOfDistinctElementsForALimitedRange sodefalr = new SumOfDistinctElementsForALimitedRange();
+        long[] arr = {5, 1, 2, 4, 6, 7, 3, 6, 7};
+        Print.print(sodefalr.sumOfDistinct(arr, arr.length));
+        long[] arr2 = {1, 1, 1};
+        Print.print(sodefalr.sumOfDistinct(arr2, arr2.length));
+
+         */
+
+
         /* Sort the string in descending order
         SortTheStringInDescendingOrder stsido = new SortTheStringInDescendingOrder();
         Print.print(stsido.ReverseSort("geeks"));

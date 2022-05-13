@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Sum of distinct elements for a limited range
+
 Sort the string in descending order
 
 Pattern-1
