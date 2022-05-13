@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Sort the string in descending order
+
 Pattern-1
 
 Perfect Reversible String

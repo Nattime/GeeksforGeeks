@@ -4,6 +4,14 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Sort the string in descending order
+        SortTheStringInDescendingOrder stsido = new SortTheStringInDescendingOrder();
+        Print.print(stsido.ReverseSort("geeks"));
+        Print.print(stsido.ReverseSort("for"));
+
+         */
+
+
         /* Pattern-1
         Print.print(Pattern1.findThePattern(4));
         Print.print(Pattern1.findThePattern(6));
