@@ -4,6 +4,13 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Count Alphabets
+        Print.print(CountAlphabets.Count("adjfjh23"));
+        Print.print(CountAlphabets.Count("n0ji#k$"));
+
+         */
+
+
         /* Permutations in array
         PermutationsInArray pia = new PermutationsInArray();
         long[] a = {2, 1, 3};

@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Count Alphabets
+
 Permutations in array
 
 Adding Ones
