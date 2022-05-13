@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Hungry Pizza Lovers
+
 Sort in specific order
 
 Upper case conversion

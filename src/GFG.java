@@ -4,6 +4,15 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Hungry Pizza Lovers
+        int[][] arr = {{4, 1}, {6, 2}, {7, 6}, {8, 1}, {1, 3}};
+        Print.print(HungryPizzaLovers.permute(arr, 5));
+        int[][] arr2 = {{1, 1}, {1, 1}, {1, 1}};
+        Print.print(HungryPizzaLovers.permute(arr2, 3));
+
+         */
+
+
         /* Sort in specific order
         SortInSpecificOrder siso = new SortInSpecificOrder();
         long[] arr = {1L, 2L, 3L, 5L, 4L, 7L, 10L};
