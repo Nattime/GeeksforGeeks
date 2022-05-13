@@ -4,6 +4,14 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Count Substrings
+        CountSubstrings cs = new CountSubstrings();
+        Print.print(cs.countSubstr("10101"));
+        Print.print(cs.countSubstr("100"));
+
+         */
+
+
         /* Sum of distinct elements for a limited range
         SumOfDistinctElementsForALimitedRange sodefalr = new SumOfDistinctElementsForALimitedRange();
         long[] arr = {5, 1, 2, 4, 6, 7, 3, 6, 7};
