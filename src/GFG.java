@@ -4,6 +4,13 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Upper case conversion
+        UpperCaseConversion ucc = new UpperCaseConversion();
+        Print.print(ucc.transform("i love programming"));
+
+         */
+
+
         /* Sort The Array
         SortTheArray sta = new SortTheArray();
         int[] arr = {1, 5, 3, 2};

@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Upper case conversion
+
 Sort The Array
 
 Count Alphabets
