@@ -6,6 +6,13 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Perfect Square String
+        Print.print(PerfectSquareString.isSquare("d"));
+        Print.print(PerfectSquareString.isSquare("1Qy"));
+
+         */
+
+
         /* Alternative Sorting
         AlternativeSorting as = new AlternativeSorting();
         long[] arr = {7, 1, 2, 3, 4, 5, 6};

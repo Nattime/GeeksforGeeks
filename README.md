@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Perfect Square String
+
 Alternative Sorting
 
 Geek and Strings
