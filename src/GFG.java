@@ -1,3 +1,5 @@
+import resources.Create;
+import resources.Node;
 import resources.Print;
 
 import java.util.ArrayList;
@@ -5,6 +7,17 @@ import java.util.Stack;
 
 public class GFG{
     public static void main(String[] args){
+
+        /* Reverse a sublist of a linked list
+        int[] arr = {1, 7, 5, 3, 9, 8, 10, 2, 2, 5};
+        Node head = Create.createNodeLinkedList(arr);
+        Print.printNodeLinkedList(ReverseASublistLfALinkedList.reverseBetween(head, 1, 8));
+        int[] arr2 = {1, 2, 3, 4, 5, 6};
+        Node head2 = Create.createNodeLinkedList(arr2);
+        Print.printNodeLinkedList(ReverseASublistLfALinkedList.reverseBetween(head2, 2, 4));
+
+         */
+
 
         /* Encoding names
         Print.print(EncodingNames.encodeTheName("Soni"));
@@ -48,7 +61,6 @@ public class GFG{
         Print.print(GeekAndStrings.prefixCount(5, 5, li, query));
 
          */
-
 
 //        Print.print("Hi");
 
@@ -494,7 +506,6 @@ public class GFG{
         resources.Print.print(aos.subMatrixSum(matrix2, 3, 3, 1, 2, 3, 3));
 
          */
-
 
 //        resources.Print.testPrint();
 //        resources.Print.print(1);
