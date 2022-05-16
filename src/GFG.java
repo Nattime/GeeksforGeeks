@@ -6,6 +6,16 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Alternative Sorting
+        AlternativeSorting as = new AlternativeSorting();
+        long[] arr = {7, 1, 2, 3, 4, 5, 6};
+        Print.print(as.alternateSort(arr, 7));
+        long[] arr2 = {1, 6, 9, 4, 3, 7, 8, 2};
+        Print.print(as.alternateSort(arr2, 8));
+
+         */
+
+
         /* Geek and Strings
         String[] li = {"abracadabra", "geeksforgeeks", "abracadabra", "geeks", "geeksthrill"};
         String[] query = {"abr", "geeks", "geeksforgeeks", "ge", "gar"};
