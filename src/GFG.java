@@ -6,6 +6,18 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Mean of range in array
+        MeanOfRangeInArray moria = new MeanOfRangeInArray();
+        int[] arr = {1, 2, 3, 4, 5};
+        int[] queries = {0, 2, 1, 3, 0, 4};
+        Print.print(moria.findMean(arr, queries, arr.length, queries.length));
+        int[] arr2 = {6, 7, 8, 10};
+        int[] queries2 = {0, 3, 1, 2};
+        Print.print(moria.findMean(arr2, queries2, arr2.length, queries2.length));
+
+         */
+
+
         /* Perfect Square String
         Print.print(PerfectSquareString.isSquare("d"));
         Print.print(PerfectSquareString.isSquare("1Qy"));
