@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Encoding names
+
 Mean of range in array
 
 Perfect Square String

@@ -6,6 +6,13 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Encoding names
+        Print.print(EncodingNames.encodeTheName("Soni"));
+        Print.print(EncodingNames.encodeTheName("Pawan"));
+
+         */
+
+
         /* Mean of range in array
         MeanOfRangeInArray moria = new MeanOfRangeInArray();
         int[] arr = {1, 2, 3, 4, 5};
