@@ -8,6 +8,13 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
+        /* Pattern for Reverse Character Bridge
+        Print.print(PatternForReverseCharacterBridge.revCharBridge(5));
+        Print.print(PatternForReverseCharacterBridge.revCharBridge(4));
+
+         */
+
+
         /* Reverse a sublist of a linked list
         int[] arr = {1, 7, 5, 3, 9, 8, 10, 2, 2, 5};
         Node head = Create.createNodeLinkedList(arr);
