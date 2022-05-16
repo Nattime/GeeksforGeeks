@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Geek and Strings
+
 Hungry Pizza Lovers
 
 Sort in specific order

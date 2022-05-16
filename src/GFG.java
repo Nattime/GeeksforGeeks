@@ -6,7 +6,16 @@ import java.util.Stack;
 public class GFG{
     public static void main(String[] args){
 
-        Print.print("Hi");
+        /* Geek and Strings
+        String[] li = {"abracadabra", "geeksforgeeks", "abracadabra", "geeks", "geeksthrill"};
+        String[] query = {"abr", "geeks", "geeksforgeeks", "ge", "gar"};
+        Print.print(GeekAndStrings.prefixCount(5, 5, li, query));
+
+         */
+
+
+//        Print.print("Hi");
+
 
         /* Hungry Pizza Lovers
         int[][] arr = {{4, 1}, {6, 2}, {7, 6}, {8, 1}, {1, 3}};
