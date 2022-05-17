@@ -3,6 +3,21 @@ import resources.Print;
 public class GFG{
     public static void main(String[] args){
 
+        /* Queue using stack
+        QueueUsingStack qus = new QueueUsingStack();
+        qus.enqueue(2);
+        qus.enqueue(3);
+        Print.print(qus.dequeue());
+        qus.enqueue(4);
+        Print.print(qus.dequeue());
+        QueueUsingStack qus2 = new QueueUsingStack();
+        qus2.enqueue(2);
+        Print.print(qus2.dequeue());
+        Print.print(qus2.dequeue());
+
+         */
+
+
         /* Height Using Parent Array
         int[] arr = {-1, 0, 0, 1, 1, 3, 5};
         Print.print(HeightUsingParentArray.findHeight(7, arr));

@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Queue using stack
+
 Height Using Parent Array
 
 Pattern for Reverse Character Bridge
