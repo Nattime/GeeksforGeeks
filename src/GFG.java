@@ -1,12 +1,9 @@
-import resources.Create;
-import resources.Node;
 import resources.Print;
-
-import java.util.ArrayList;
-import java.util.Stack;
 
 public class GFG{
     public static void main(String[] args){
+
+
 
         /* Pattern for Reverse Character Bridge
         Print.print(PatternForReverseCharacterBridge.revCharBridge(5));
