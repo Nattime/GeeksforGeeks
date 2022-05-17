@@ -1,7 +1,19 @@
+import resources.Create;
+import resources.Node;
 import resources.Print;
 
 public class GFG{
     public static void main(String[] args){
+
+        /* Flatten binary tree to linked list
+        int[] arr = {1, 2, 5, 3, 4, -1, 6};
+        Node root = Create.createBinaryTree(arr);
+        Print.printBinaryTree(root);
+        FlattenBinaryTreeToLinkedList.flatten(root);
+        Print.printBinaryTree(root);
+
+         */
+
 
         /* Queue using stack
         QueueUsingStack qus = new QueueUsingStack();

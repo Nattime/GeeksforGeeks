@@ -372,14 +372,18 @@ public class Print{
         Queue<Node> q = new LinkedList<>();
         q.add(root);
         while(!q.isEmpty()){
-            Node curr = q.remove();
-            if(curr == null){
-                System.out.print("N ");
-            }else{
-                System.out.print(curr.getData() + " ");
-                q.add(curr.getLeft());
-                q.add(curr.getRight());
+            int size = q.size();
+            for(int i = 0; i < size; i++){
+                Node curr = q.remove();
+                if(curr == null){
+                    System.out.print("N ");
+                }else{
+                    System.out.print(curr.getData() + " ");
+                    q.add(curr.getLeft());
+                    q.add(curr.getRight());
+                }
             }
+            System.out.println();
         }
     }
 
