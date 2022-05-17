@@ -3,6 +3,11 @@ import resources.Print;
 public class GFG{
     public static void main(String[] args){
 
+        /* Height Using Parent Array
+        int[] arr = {-1, 0, 0, 1, 1, 3, 5};
+        Print.print(HeightUsingParentArray.findHeight(7, arr));
+
+         */
 
 
         /* Pattern for Reverse Character Bridge

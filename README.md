@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Height Using Parent Array
+
 Pattern for Reverse Character Bridge
 
 Reverse a sublist of a linked list
