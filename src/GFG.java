@@ -5,6 +5,26 @@ import resources.Print;
 public class GFG{
     public static void main(String[] args){
 
+        /* Swap the closest and farthest digits
+        SwapTheClosestAndFarthestDigits stcafd = new SwapTheClosestAndFarthestDigits();
+        SwapTheClosestAndFarthestDigits.Str n1 = new SwapTheClosestAndFarthestDigits.Str("1234");
+        SwapTheClosestAndFarthestDigits.Str n2 = new SwapTheClosestAndFarthestDigits.Str("5678");
+        System.out.println(n1.toString());
+        System.out.println(n2.toString());
+        stcafd.swapDigits(n1, n2);
+        System.out.println(n1.toString());
+        System.out.println(n2.toString());
+        SwapTheClosestAndFarthestDigits.Str n3 = new SwapTheClosestAndFarthestDigits.Str("555");
+        SwapTheClosestAndFarthestDigits.Str n4 = new SwapTheClosestAndFarthestDigits.Str("55");
+        System.out.println(n3.toString());
+        System.out.println(n4.toString());
+        stcafd.swapDigits(n3, n4);
+        System.out.println(n3.toString());
+        System.out.println(n4.toString());
+
+         */
+
+
         /* Product is even or odd
         ProductIsEvenOrOdd pieoo = new ProductIsEvenOrOdd();
         Print.print(pieoo.EvenOdd("12", "15"));

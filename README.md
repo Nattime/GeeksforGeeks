@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Swap the closest and farthest digits
+
 Product is even or odd
 
 Sum of large numbers
