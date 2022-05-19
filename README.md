@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Print the pattern
+
 Swap the closest and farthest digits
 
 Product is even or odd

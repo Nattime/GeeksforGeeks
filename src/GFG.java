@@ -5,6 +5,12 @@ import resources.Print;
 public class GFG{
     public static void main(String[] args){
 
+        /* Print the pattern
+        Print.print(PrintThePattern.pattern(3), true);
+
+         */
+
+
         /* Swap the closest and farthest digits
         SwapTheClosestAndFarthestDigits stcafd = new SwapTheClosestAndFarthestDigits();
         SwapTheClosestAndFarthestDigits.Str n1 = new SwapTheClosestAndFarthestDigits.Str("1234");
