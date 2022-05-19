@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Minimum number of Coins
+
 Flatten binary tree to linked list
 
 Queue using stack

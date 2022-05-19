@@ -5,6 +5,13 @@ import resources.Print;
 public class GFG{
     public static void main(String[] args){
 
+        /* Minimum number of Coins
+        Print.print(MinimumNumberCfCoins.minPartition(43));
+        Print.print(MinimumNumberCfCoins.minPartition(1000));
+
+         */
+
+
         /* Flatten binary tree to linked list
         int[] arr = {1, 2, 5, 3, 4, -1, 6};
         Node root = Create.createBinaryTree(arr);
