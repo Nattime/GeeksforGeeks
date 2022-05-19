@@ -5,7 +5,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.*;
 
 public class Print{
-    public static boolean test = false;
+        public static boolean test = false;
 //    public static boolean test = true;
 
     public static void testPrint(){
@@ -221,9 +221,22 @@ public class Print{
             }else{
                 printArray((T[])var, newLine);
             }
+        }else if(var instanceof Collection){
+            printCollection(var, newLine);
         }else{
             print(var);
         }
+    }
+
+    private static <T> void printCollection(T var, boolean newLine){
+        if(test) System.out.println("Collection " + var.getClass().getSimpleName() + " " + newLine);
+        for(Object iter : (Collection)var){
+            System.out.print(iter + " ");
+            if(newLine){
+                System.out.println();
+            }
+        }
+        System.out.println();
     }
 
 //    private static void print(short var){
