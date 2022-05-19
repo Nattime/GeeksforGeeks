@@ -5,6 +5,14 @@ import resources.Print;
 public class GFG{
     public static void main(String[] args){
 
+        /* Product is even or odd
+        ProductIsEvenOrOdd pieoo = new ProductIsEvenOrOdd();
+        Print.print(pieoo.EvenOdd("12", "15"));
+        Print.print(pieoo.EvenOdd("123", "457"));
+
+         */
+
+
         /* Sum of large numbers
         SumOfLargeNumbers soln = new SumOfLargeNumbers();
         Print.print(soln.add("63457", "645"));
