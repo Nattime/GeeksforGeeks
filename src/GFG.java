@@ -5,6 +5,11 @@ import resources.Print;
 public class GFG{
     public static void main(String[] args){
 
+//        Unusual String Sort
+        Print.print(UnusualStringSort.stringSort("bAwutndekWEdkd"));
+        Print.print(UnusualStringSort.stringSort("AiBFR"));
+
+
         /* Print the pattern
         Print.print(PrintThePattern.pattern(3), true);
 
