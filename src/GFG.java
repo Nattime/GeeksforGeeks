@@ -5,9 +5,18 @@ import resources.Print;
 public class GFG{
     public static void main(String[] args){
 
-//        Unusual String Sort
+        /* N Digit numbers with digits in increasing order
+        Print.print(NDigitNumbersWithDigitsInIncreasingOrder.increasingNumbers(3));
+        Print.print(NDigitNumbersWithDigitsInIncreasingOrder.increasingNumbers(4));
+
+         */
+
+
+        /* Unusual String Sort
         Print.print(UnusualStringSort.stringSort("bAwutndekWEdkd"));
         Print.print(UnusualStringSort.stringSort("AiBFR"));
+
+         */
 
 
         /* Print the pattern

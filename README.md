@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+N Digit numbers with digits in increasing order
+
 Unusual String Sort
 
 Print the pattern
