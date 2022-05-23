@@ -174,4 +174,19 @@ public class Create{
 
         return ret;
     }
+
+    public static PriorityQueue<Integer> createPriorityQueue(int[] arr){
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        for(int iter : arr){
+            pq.add(iter);
+        }
+        return pq;
+    }
+    public static PriorityQueue<Integer> createPriorityQueue(int[] arr, Comparator<Integer> comparator){
+        PriorityQueue<Integer> pq = new PriorityQueue<>(comparator);
+        for(int iter : arr){
+            pq.add(iter);
+        }
+        return pq;
+    }
 }
