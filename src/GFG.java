@@ -2,8 +2,30 @@ import resources.Create;
 import resources.Node;
 import resources.Print;
 
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
 public class GFG{
     public static void main(String[] args){
+
+        /* Operations on PriorityQueue
+        int[] arr = {1, 2, 3, 4, 5, 2, 3, 1};
+        int[] op = {1, 3, 2, 9, 10};
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->b - a);
+        for(int iter : arr){
+            OperationsOnPriorityQueue.insert(pq, iter);
+        }
+        for(int iter : op){
+            if(OperationsOnPriorityQueue.find(pq, iter)){
+                System.out.println("1");
+                System.out.println(OperationsOnPriorityQueue.delete(pq));
+            }else{
+                System.out.println("-1");
+            }
+        }
+
+         */
+
 
         /* N Digit numbers with digits in increasing order
         Print.print(NDigitNumbersWithDigitsInIncreasingOrder.increasingNumbers(3));

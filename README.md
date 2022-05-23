@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Operations on PriorityQueue
+
 N Digit numbers with digits in increasing order
 
 Unusual String Sort
