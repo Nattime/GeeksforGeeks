@@ -9,6 +9,15 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Matrix Operations
+        int[][] matrix = {{0, 1}, {1, 0}};
+        Print.print(MatrixOperations.endPoints(matrix, 2, 2));
+        int[][] matrix2 = {{0, 1, 1, 1, 0}, {1, 0, 1, 0, 1}, {1, 1, 1, 0, 0}};
+        Print.print(MatrixOperations.endPoints(matrix2, 3, 5));
+
+         */
+
+
         /* Minimum Sum of Absolute Differences of Pairs
         MinimumSumOfAbsoluteDifferencesOfPairs msoadop = new MinimumSumOfAbsoluteDifferencesOfPairs();
         int[] A = {4, 1, 8, 7};
