@@ -9,10 +9,19 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
-//        Confused pappu
+        /* Maximum Sum LCM
+        Print.print(MaximumSumLCM.maxSumLCM(2));
+        Print.print(MaximumSumLCM.maxSumLCM(5));
+
+         */
+
+
+        /* Confused pappu
         ConfusedPappu cp = new ConfusedPappu();
         Print.print(cp.findDiff(56L));
         Print.print(cp.findDiff(66L));
+
+         */
 
 
         /* Toppers Of Class
