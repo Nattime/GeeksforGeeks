@@ -9,6 +9,12 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+//        Confused pappu
+        ConfusedPappu cp = new ConfusedPappu();
+        Print.print(cp.findDiff(56L));
+        Print.print(cp.findDiff(66L));
+
+
         /* Toppers Of Class
         ToppersOfClass toc = new ToppersOfClass();
         int[] arr = {2, 2, 1, 3, 1};
