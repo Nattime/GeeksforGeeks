@@ -9,12 +9,23 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Minimum Sum of Absolute Differences of Pairs
+        MinimumSumOfAbsoluteDifferencesOfPairs msoadop = new MinimumSumOfAbsoluteDifferencesOfPairs();
+        int[] A = {4, 1, 8, 7};
+        int[] B = {2, 3, 6, 5};
+        Print.print(msoadop.findMinSum(A, B, 4));
+        int[] A2 = {4, 1, 2};
+        int[] B2 = {2, 4, 1};
+        Print.print(msoadop.findMinSum(A2, B2, 3));
+
+         */
+
+
         /* Possible Timings
         Print.print(PossibleTimings.numberOfPossibleTimings("78"));
         Print.print(PossibleTimings.numberOfPossibleTimings("05"));
 
          */
-
 
 //        Create.test();
 

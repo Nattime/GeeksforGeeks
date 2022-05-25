@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Minimum Sum of Absolute Differences of Pairs
+
 Possible Timings
 
 Operations on PriorityQueue
