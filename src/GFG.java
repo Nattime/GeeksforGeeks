@@ -9,6 +9,20 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Toppers Of Class
+        ToppersOfClass toc = new ToppersOfClass();
+        int[] arr = {2, 2, 1, 3, 1};
+        ToppersOfClass.node[] nodeArr = ToppersOfClass.makeNode(arr);
+        toc.kTop(nodeArr, nodeArr.length);
+        ToppersOfClass.print(nodeArr, 3);
+        int[] arr2 = {1, 2, 3, 4};
+        ToppersOfClass.node[] nodeArr2 = ToppersOfClass.makeNode(arr);
+        toc.kTop(nodeArr2, nodeArr2.length);
+        ToppersOfClass.print(nodeArr2, 1);
+
+         */
+
+
         /* Matrix Operations
         int[][] matrix = {{0, 1}, {1, 0}};
         Print.print(MatrixOperations.endPoints(matrix, 2, 2));
