@@ -9,6 +9,17 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Largest subtree sum in a tree
+        int[] arr = {1, 2, 3, 4, 5, 6, 7};
+        Node root = Create.createBinaryTree(arr);
+        Print.print(LargestSubtreeSumInATree.findLargestSubtreeSum(root));
+        int[] arr2 = {5, 5, -1, 4, 10, -1, 8, 5, -1, -1, 8, 8, -1, 6}; // 5 5 N 4 10 N 8 5 N N 8 8 N 6
+        Node root2 = Create.createBinaryTree(arr2);
+        Print.print(LargestSubtreeSumInATree.findLargestSubtreeSum(root2));
+
+         */
+
+
         /* Maximum Sum LCM
         Print.print(MaximumSumLCM.maxSumLCM(2));
         Print.print(MaximumSumLCM.maxSumLCM(5));

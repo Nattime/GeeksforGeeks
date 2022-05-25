@@ -1,6 +1,6 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
-Maximum Sum LCM
+Largest subtree sum in a tree
 
 Confused pappu
 
