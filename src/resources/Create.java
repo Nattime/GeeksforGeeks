@@ -5,6 +5,11 @@ import resources.Node;
 import java.util.*;
 
 public class Create{
+    public static void test(){
+        int[] arr = {1, 2, 3, 4, 5, 2, 3, 1};
+        PriorityQueue<Integer> pq = createPriorityQueue(arr);
+        Print.print(pq);
+    }
     public static Tree createRandomTree(int[][] matrix){
         Map<Integer, Tree> m = new HashMap<>();
         System.out.println(matrix.length + " len ");
@@ -176,11 +181,7 @@ public class Create{
     }
 
     public static PriorityQueue<Integer> createPriorityQueue(int[] arr){
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
-        for(int iter : arr){
-            pq.add(iter);
-        }
-        return pq;
+        return createPriorityQueue(arr, null);
     }
     public static PriorityQueue<Integer> createPriorityQueue(int[] arr, Comparator<Integer> comparator){
         PriorityQueue<Integer> pq = new PriorityQueue<>(comparator);

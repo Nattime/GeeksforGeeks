@@ -1,3 +1,4 @@
+import gfg.*;
 import resources.Create;
 import resources.Node;
 import resources.Print;
@@ -8,17 +9,26 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Possible Timings
+        Print.print(PossibleTimings.numberOfPossibleTimings("78"));
+        Print.print(PossibleTimings.numberOfPossibleTimings("05"));
+
+         */
+
+
+//        Create.test();
+
         /* Operations on PriorityQueue
         int[] arr = {1, 2, 3, 4, 5, 2, 3, 1};
         int[] op = {1, 3, 2, 9, 10};
         PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->b - a);
         for(int iter : arr){
-            OperationsOnPriorityQueue.insert(pq, iter);
+            gfg.OperationsOnPriorityQueue.insert(pq, iter);
         }
         for(int iter : op){
-            if(OperationsOnPriorityQueue.find(pq, iter)){
+            if(gfg.OperationsOnPriorityQueue.find(pq, iter)){
                 System.out.println("1");
-                System.out.println(OperationsOnPriorityQueue.delete(pq));
+                System.out.println(gfg.OperationsOnPriorityQueue.delete(pq));
             }else{
                 System.out.println("-1");
             }
@@ -28,36 +38,36 @@ public class GFG{
 
 
         /* N Digit numbers with digits in increasing order
-        Print.print(NDigitNumbersWithDigitsInIncreasingOrder.increasingNumbers(3));
-        Print.print(NDigitNumbersWithDigitsInIncreasingOrder.increasingNumbers(4));
+        Print.print(gfg.NDigitNumbersWithDigitsInIncreasingOrder.increasingNumbers(3));
+        Print.print(gfg.NDigitNumbersWithDigitsInIncreasingOrder.increasingNumbers(4));
 
          */
 
 
         /* Unusual String Sort
-        Print.print(UnusualStringSort.stringSort("bAwutndekWEdkd"));
-        Print.print(UnusualStringSort.stringSort("AiBFR"));
+        Print.print(gfg.UnusualStringSort.stringSort("bAwutndekWEdkd"));
+        Print.print(gfg.UnusualStringSort.stringSort("AiBFR"));
 
          */
 
 
         /* Print the pattern
-        Print.print(PrintThePattern.pattern(3), true);
+        Print.print(gfg.PrintThePattern.pattern(3), true);
 
          */
 
 
         /* Swap the closest and farthest digits
-        SwapTheClosestAndFarthestDigits stcafd = new SwapTheClosestAndFarthestDigits();
-        SwapTheClosestAndFarthestDigits.Str n1 = new SwapTheClosestAndFarthestDigits.Str("1234");
-        SwapTheClosestAndFarthestDigits.Str n2 = new SwapTheClosestAndFarthestDigits.Str("5678");
+        gfg.SwapTheClosestAndFarthestDigits stcafd = new gfg.SwapTheClosestAndFarthestDigits();
+        gfg.SwapTheClosestAndFarthestDigits.Str n1 = new gfg.SwapTheClosestAndFarthestDigits.Str("1234");
+        gfg.SwapTheClosestAndFarthestDigits.Str n2 = new gfg.SwapTheClosestAndFarthestDigits.Str("5678");
         System.out.println(n1.toString());
         System.out.println(n2.toString());
         stcafd.swapDigits(n1, n2);
         System.out.println(n1.toString());
         System.out.println(n2.toString());
-        SwapTheClosestAndFarthestDigits.Str n3 = new SwapTheClosestAndFarthestDigits.Str("555");
-        SwapTheClosestAndFarthestDigits.Str n4 = new SwapTheClosestAndFarthestDigits.Str("55");
+        gfg.SwapTheClosestAndFarthestDigits.Str n3 = new gfg.SwapTheClosestAndFarthestDigits.Str("555");
+        gfg.SwapTheClosestAndFarthestDigits.Str n4 = new gfg.SwapTheClosestAndFarthestDigits.Str("55");
         System.out.println(n3.toString());
         System.out.println(n4.toString());
         stcafd.swapDigits(n3, n4);
@@ -68,15 +78,15 @@ public class GFG{
 
 
         /* Product is even or odd
-        ProductIsEvenOrOdd pieoo = new ProductIsEvenOrOdd();
-        Print.print(pieoo.EvenOdd("12", "15"));
-        Print.print(pieoo.EvenOdd("123", "457"));
+        gfg.ProductIsEvenOrOdd pieoo = new gfg.ProductIsEvenOrOdd();
+        Print.print(pieoo.gfg.EvenOdd("12", "15"));
+        Print.print(pieoo.gfg.EvenOdd("123", "457"));
 
          */
 
 
         /* Sum of large numbers
-        SumOfLargeNumbers soln = new SumOfLargeNumbers();
+        gfg.SumOfLargeNumbers soln = new gfg.SumOfLargeNumbers();
         Print.print(soln.add("63457", "645"));
         Print.print(soln.add("101", "102"));
 
@@ -84,8 +94,8 @@ public class GFG{
 
 
         /* Minimum number of Coins
-        Print.print(MinimumNumberCfCoins.minPartition(43));
-        Print.print(MinimumNumberCfCoins.minPartition(1000));
+        Print.print(gfg.MinimumNumberCfCoins.minPartition(43));
+        Print.print(gfg.MinimumNumberCfCoins.minPartition(1000));
 
          */
 
@@ -94,20 +104,20 @@ public class GFG{
         int[] arr = {1, 2, 5, 3, 4, -1, 6};
         Node root = Create.createBinaryTree(arr);
         Print.printBinaryTree(root);
-        FlattenBinaryTreeToLinkedList.flatten(root);
+        gfg.FlattenBinaryTreeToLinkedList.flatten(root);
         Print.printBinaryTree(root);
 
          */
 
 
         /* Queue using stack
-        QueueUsingStack qus = new QueueUsingStack();
+        gfg.QueueUsingStack qus = new gfg.QueueUsingStack();
         qus.enqueue(2);
         qus.enqueue(3);
         Print.print(qus.dequeue());
         qus.enqueue(4);
         Print.print(qus.dequeue());
-        QueueUsingStack qus2 = new QueueUsingStack();
+        gfg.QueueUsingStack qus2 = new gfg.QueueUsingStack();
         qus2.enqueue(2);
         Print.print(qus2.dequeue());
         Print.print(qus2.dequeue());
@@ -117,14 +127,14 @@ public class GFG{
 
         /* Height Using Parent Array
         int[] arr = {-1, 0, 0, 1, 1, 3, 5};
-        Print.print(HeightUsingParentArray.findHeight(7, arr));
+        Print.print(gfg.HeightUsingParentArray.findHeight(7, arr));
 
          */
 
 
         /* Pattern for Reverse Character Bridge
-        Print.print(PatternForReverseCharacterBridge.revCharBridge(5));
-        Print.print(PatternForReverseCharacterBridge.revCharBridge(4));
+        Print.print(gfg.PatternForReverseCharacterBridge.revCharBridge(5));
+        Print.print(gfg.PatternForReverseCharacterBridge.revCharBridge(4));
 
          */
 
@@ -132,23 +142,23 @@ public class GFG{
         /* Reverse a sublist of a linked list
         int[] arr = {1, 7, 5, 3, 9, 8, 10, 2, 2, 5};
         Node head = Create.createNodeLinkedList(arr);
-        Print.printNodeLinkedList(ReverseASublistLfALinkedList.reverseBetween(head, 1, 8));
+        Print.printNodeLinkedList(gfg.ReverseASublistLfALinkedList.reverseBetween(head, 1, 8));
         int[] arr2 = {1, 2, 3, 4, 5, 6};
         Node head2 = Create.createNodeLinkedList(arr2);
-        Print.printNodeLinkedList(ReverseASublistLfALinkedList.reverseBetween(head2, 2, 4));
+        Print.printNodeLinkedList(gfg.ReverseASublistLfALinkedList.reverseBetween(head2, 2, 4));
 
          */
 
 
         /* Encoding names
-        Print.print(EncodingNames.encodeTheName("Soni"));
-        Print.print(EncodingNames.encodeTheName("Pawan"));
+        Print.print(gfg.EncodingNames.encodeTheName("Soni"));
+        Print.print(gfg.EncodingNames.encodeTheName("Pawan"));
 
          */
 
 
         /* Mean of range in array
-        MeanOfRangeInArray moria = new MeanOfRangeInArray();
+        gfg.MeanOfRangeInArray moria = new gfg.MeanOfRangeInArray();
         int[] arr = {1, 2, 3, 4, 5};
         int[] queries = {0, 2, 1, 3, 0, 4};
         Print.print(moria.findMean(arr, queries, arr.length, queries.length));
@@ -160,14 +170,14 @@ public class GFG{
 
 
         /* Perfect Square String
-        Print.print(PerfectSquareString.isSquare("d"));
-        Print.print(PerfectSquareString.isSquare("1Qy"));
+        Print.print(gfg.PerfectSquareString.isSquare("d"));
+        Print.print(gfg.PerfectSquareString.isSquare("1Qy"));
 
          */
 
 
         /* Alternative Sorting
-        AlternativeSorting as = new AlternativeSorting();
+        gfg.AlternativeSorting as = new gfg.AlternativeSorting();
         long[] arr = {7, 1, 2, 3, 4, 5, 6};
         Print.print(as.alternateSort(arr, 7));
         long[] arr2 = {1, 6, 9, 4, 3, 7, 8, 2};
@@ -179,7 +189,7 @@ public class GFG{
         /* Geek and Strings
         String[] li = {"abracadabra", "geeksforgeeks", "abracadabra", "geeks", "geeksthrill"};
         String[] query = {"abr", "geeks", "geeksforgeeks", "ge", "gar"};
-        Print.print(GeekAndStrings.prefixCount(5, 5, li, query));
+        Print.print(gfg.GeekAndStrings.prefixCount(5, 5, li, query));
 
          */
 
@@ -188,15 +198,15 @@ public class GFG{
 
         /* Hungry Pizza Lovers
         int[][] arr = {{4, 1}, {6, 2}, {7, 6}, {8, 1}, {1, 3}};
-        resources.Print.print(HungryPizzaLovers.permute(arr, 5));
+        resources.Print.print(gfg.HungryPizzaLovers.permute(arr, 5));
         int[][] arr2 = {{1, 1}, {1, 1}, {1, 1}};
-        resources.Print.print(HungryPizzaLovers.permute(arr2, 3));
+        resources.Print.print(gfg.HungryPizzaLovers.permute(arr2, 3));
 
          */
 
 
         /* Sort in specific order
-        SortInSpecificOrder siso = new SortInSpecificOrder();
+        gfg.SortInSpecificOrder siso = new gfg.SortInSpecificOrder();
         long[] arr = {1L, 2L, 3L, 5L, 4L, 7L, 10L};
         siso.sortIt(arr, 7);
         resources.Print.print(arr);
@@ -208,14 +218,14 @@ public class GFG{
 
 
         /* Upper case conversion
-        UpperCaseConversion ucc = new UpperCaseConversion();
+        gfg.UpperCaseConversion ucc = new gfg.UpperCaseConversion();
         resources.Print.print(ucc.transform("i love programming"));
 
          */
 
 
         /* Sort The Array
-        SortTheArray sta = new SortTheArray();
+        gfg.SortTheArray sta = new gfg.SortTheArray();
         int[] arr = {1, 5, 3, 2};
         resources.Print.print(sta.sortArr(arr, 4));
         int[] arr2 = {3, 1};
@@ -225,14 +235,14 @@ public class GFG{
 
 
         /* Count Alphabets
-        resources.Print.print(CountAlphabets.Count("adjfjh23"));
-        resources.Print.print(CountAlphabets.Count("n0ji#k$"));
+        resources.Print.print(gfg.CountAlphabets.Count("adjfjh23"));
+        resources.Print.print(gfg.CountAlphabets.Count("n0ji#k$"));
 
          */
 
 
         /* Permutations in array
-        PermutationsInArray pia = new PermutationsInArray();
+        gfg.PermutationsInArray pia = new gfg.PermutationsInArray();
         long[] a = {2, 1, 3};
         long[] b = {7, 8, 9};
         resources.Print.print(pia.isPossible(a, b, a.length, 10L));
@@ -246,18 +256,18 @@ public class GFG{
         /* Adding Ones
         int[] a = {0, 0, 0};
         int[] updates = {1, 1, 2, 3};
-        AddingOnes.update(a, 3, updates, 4);
+        gfg.AddingOnes.update(a, 3, updates, 4);
         resources.Print.print(a);
         int[] a2 = {0, 0};
         int[] updates2 = {1, 1, 1};
-        AddingOnes.update(a2, 2, updates2, 3);
+        gfg.AddingOnes.update(a2, 2, updates2, 3);
         resources.Print.print(a2);
 
          */
 
 
         /* Last index of a character in the string
-        LastIndexOfACharacterInTheString lioacits = new LastIndexOfACharacterInTheString();
+        gfg.LastIndexOfACharacterInTheString lioacits = new gfg.LastIndexOfACharacterInTheString();
         resources.Print.print(lioacits.LastIndex("Geeks", 'e'));
         resources.Print.print(lioacits.LastIndex("okiyh", 'z'));
 
@@ -265,14 +275,14 @@ public class GFG{
 
 
         /* Check if divisible by 5
-        resources.Print.print(CheckIfDivisibleByFive.divisibleBy5("5"));
-        resources.Print.print(CheckIfDivisibleByFive.divisibleBy5("1000001"));
+        resources.Print.print(gfg.CheckIfDivisibleByFive.divisibleBy5("5"));
+        resources.Print.print(gfg.CheckIfDivisibleByFive.divisibleBy5("1000001"));
 
          */
 
 
         /* Count Substrings
-        CountSubstrings cs = new CountSubstrings();
+        gfg.CountSubstrings cs = new gfg.CountSubstrings();
         resources.Print.print(cs.countSubstr("10101"));
         resources.Print.print(cs.countSubstr("100"));
 
@@ -280,7 +290,7 @@ public class GFG{
 
 
         /* Sum of distinct elements for a limited range
-        SumOfDistinctElementsForALimitedRange sodefalr = new SumOfDistinctElementsForALimitedRange();
+        gfg.SumOfDistinctElementsForALimitedRange sodefalr = new gfg.SumOfDistinctElementsForALimitedRange();
         long[] arr = {5, 1, 2, 4, 6, 7, 3, 6, 7};
         resources.Print.print(sodefalr.sumOfDistinct(arr, arr.length));
         long[] arr2 = {1, 1, 1};
@@ -290,7 +300,7 @@ public class GFG{
 
 
         /* Sort the string in descending order
-        SortTheStringInDescendingOrder stsido = new SortTheStringInDescendingOrder();
+        gfg.SortTheStringInDescendingOrder stsido = new gfg.SortTheStringInDescendingOrder();
         resources.Print.print(stsido.ReverseSort("geeks"));
         resources.Print.print(stsido.ReverseSort("for"));
 
@@ -298,14 +308,14 @@ public class GFG{
 
 
         /* Pattern-1
-        resources.Print.print(Pattern1.findThePattern(4));
-        resources.Print.print(Pattern1.findThePattern(6));
+        resources.Print.print(gfg.Pattern1.findThePattern(4));
+        resources.Print.print(gfg.Pattern1.findThePattern(6));
 
          */
 
 
         /* Perfect Reversible String
-        PerfectReversibleString prs = new PerfectReversibleString();
+        gfg.PerfectReversibleString prs = new gfg.PerfectReversibleString();
         resources.Print.print(prs.isReversible("ab", 2));
         resources.Print.print(prs.isReversible("aba", 3));
 
@@ -313,7 +323,7 @@ public class GFG{
 
 
         /* Triangular Number
-        TriangularNumber tn = new TriangularNumber();
+        gfg.TriangularNumber tn = new gfg.TriangularNumber();
         resources.Print.print(tn.isTriangular(55));
         resources.Print.print(tn.isTriangular(56));
 
@@ -321,7 +331,7 @@ public class GFG{
 
 
         /* Can Make Triangle
-        CanMakeTriangle cmt = new CanMakeTriangle();
+        gfg.CanMakeTriangle cmt = new gfg.CanMakeTriangle();
         int[] A = {1, 2, 2, 4};
         resources.Print.print(cmt.canMakeTriangle(A, A.length));
         int[] A2 = {2, 10, 2, 10, 2};
@@ -331,15 +341,15 @@ public class GFG{
 
 
         /* Arya's Long String
-        resources.Print.print(AryasLongString.fun("WLRBBMQBHCDARZOWKKYHIDDQSCDXRJMOWFRXSJYBLDBEFSARCBYNECDYGGXXPKLORELLNMPAPQFWKHOPKMCOQHNWNKUEWHSQMGBBUQCLJJIVSWMDKQTBXIXMVTRRBLJPTNSNFWZQFJMAFADRRWSOFSBCNUVQHFFBSAQXWPQCACEHCHZVFRKMLNOZJKPQPXRJXKITZYXACBHHKICQCOENDTOMFGDWDWFCGPXIQVKUYTDLCGDEWHTACIOHORDTQKVWCSGSPQOQMSBOAGUWNNYQXNZLGDGWPBTRWBLNSADEUGUUMOQCDRUBETOKYXHOACHWDVMXXRDRYXLMNDQTUKWAGMLEJUUKWCIBXUBUMENMEYATDRMYDIAJXLOGHIQFMZH", 67621, 19144651, 'V'));
-        resources.Print.print(AryasLongString.fun("ABA", 3, 7, 'B'));
-        resources.Print.print(AryasLongString.fun("MMM", 2, 4, 'M'));
+        resources.Print.print(gfg.AryasLongString.fun("WLRBBMQBHCDARZOWKKYHIDDQSCDXRJMOWFRXSJYBLDBEFSARCBYNECDYGGXXPKLORELLNMPAPQFWKHOPKMCOQHNWNKUEWHSQMGBBUQCLJJIVSWMDKQTBXIXMVTRRBLJPTNSNFWZQFJMAFADRRWSOFSBCNUVQHFFBSAQXWPQCACEHCHZVFRKMLNOZJKPQPXRJXKITZYXACBHHKICQCOENDTOMFGDWDWFCGPXIQVKUYTDLCGDEWHTACIOHORDTQKVWCSGSPQOQMSBOAGUWNNYQXNZLGDGWPBTRWBLNSADEUGUUMOQCDRUBETOKYXHOACHWDVMXXRDRYXLMNDQTUKWAGMLEJUUKWCIBXUBUMENMEYATDRMYDIAJXLOGHIQFMZH", 67621, 19144651, 'V'));
+        resources.Print.print(gfg.AryasLongString.fun("ABA", 3, 7, 'B'));
+        resources.Print.print(gfg.AryasLongString.fun("MMM", 2, 4, 'M'));
 
          */
 
 
         /* Ordering of strings
-        OrderingOfStrings oos = new OrderingOfStrings();
+        gfg.OrderingOfStrings oos = new gfg.OrderingOfStrings();
         String[] arr = {"a", "ab", "abc"};
         resources.Print.print(oos.orderString(arr, 3));
         String[] arr2 = {"abc", "abc"};
@@ -349,7 +359,7 @@ public class GFG{
 
 
         /* Starting Point
-        StartingPoint sp = new StartingPoint();
+        gfg.StartingPoint sp = new gfg.StartingPoint();
         int[][] matrix = {{1, 0}, {0, 1}, {1, 1}};
         resources.Print.print(sp.findStartingPoint(2, 2, matrix));
         int[][] matrix2 = {{1, 1}};
@@ -359,14 +369,14 @@ public class GFG{
 
 
         /* Triangle growing downwards
-        TriangleGrowingDownwards.printTriangleDownwards("geeks");
-        TriangleGrowingDownwards.printTriangleDownwards("thisi");
+        gfg.TriangleGrowingDownwards.printTriangleDownwards("geeks");
+        gfg.TriangleGrowingDownwards.printTriangleDownwards("thisi");
 
          */
 
 
         /* Find duplicates under given constraints
-        FindDuplicatesUnderGivenConstraints fdugc = new FindDuplicatesUnderGivenConstraints();
+        gfg.FindDuplicatesUnderGivenConstraints fdugc = new gfg.FindDuplicatesUnderGivenConstraints();
         int[] A = {1, 1, 1, 1, 1, 5, 7, 10, 20, 30};
         resources.Print.print(fdugc.findDuplicate(A));
         int[] A2 = {1, 2, 3, 3, 3, 3, 3, 5, 9, 10};
@@ -376,7 +386,7 @@ public class GFG{
 
 
         /* Ishwar and his proposals
-        IshwarAndHisProposals iahp = new IshwarAndHisProposals();
+        gfg.IshwarAndHisProposals iahp = new gfg.IshwarAndHisProposals();
         int[] arr = {1, 2, 3, 4};
         resources.Print.print(iahp.acceptedProposals(arr, 4));
         int[] arr2 = {6, 9, 1, 4, 8};
@@ -388,34 +398,34 @@ public class GFG{
         /* Maximum Winning score
         int[] arr = {4, 2, 8, 2, 1, 3, 4};
         resources.Node root = resources.Create.createBinaryTree(arr);
-        resources.Print.print(MaximumWinningScore.findMaxScore(root));
+        resources.Print.print(gfg.MaximumWinningScore.findMaxScore(root));
         int[] arr2 = {10,7,5,-1,-1,-1,1};
         resources.Node root2 = resources.Create.createBinaryTree(arr2);
-        resources.Print.print(MaximumWinningScore.findMaxScore(root2));
+        resources.Print.print(gfg.MaximumWinningScore.findMaxScore(root2));
 
          */
 
 
         /* Recursively print all sentences that can be formed from list of word lists
         String[][] list = {{"you", "we"}, {"have", "are"}};
-        resources.Print.print(RecursivelyPrintAllSentencesThatCanBeFormedFromListOfWordLists.sentences(list));
+        resources.Print.print(gfg.RecursivelyPrintAllSentencesThatCanBeFormedFromListOfWordLists.sentences(list));
         String[][] list2 = {{"bowl", "walk", "sunflower", "movie"},{"table", "bottle", "fan", "sleep"}};
-        resources.Print.print(RecursivelyPrintAllSentencesThatCanBeFormedFromListOfWordLists.sentences(list2));
+        resources.Print.print(gfg.RecursivelyPrintAllSentencesThatCanBeFormedFromListOfWordLists.sentences(list2));
 
          */
 
 
         /* Maximum Diamonds
         int[] A = {2, 1, 7, 4, 2};
-        resources.Print.print(MaximumDiamonds.maxDiamonds(A, 5, 3));
+        resources.Print.print(gfg.MaximumDiamonds.maxDiamonds(A, 5, 3));
         int[] A2 = {7, 1, 2};
-        resources.Print.print(MaximumDiamonds.maxDiamonds(A2, 3, 2));
+        resources.Print.print(gfg.MaximumDiamonds.maxDiamonds(A2, 3, 2));
 
          */
 
 
         /* Addition of two square matrices
-        AdditionOfTwoSquareMatrices aotsm = new AdditionOfTwoSquareMatrices();
+        gfg.AdditionOfTwoSquareMatrices aotsm = new gfg.AdditionOfTwoSquareMatrices();
         int[][] matrixA = {{1, 2}, {3, 4}};
         int[][] matrixB = {{4, 3}, {2, 1}};
         aotsm.Addition(matrixA, matrixB);
@@ -429,21 +439,21 @@ public class GFG{
 
 
         /* Square Divisors
-        resources.Print.print(SquareDivisors.squareFactor(36));
-        resources.Print.print(SquareDivisors.squareFactor(60));
+        resources.Print.print(gfg.SquareDivisors.squareFactor(36));
+        resources.Print.print(gfg.SquareDivisors.squareFactor(60));
 
          */
 
 
         /* Jumpy Ball
-        resources.Print.print(JumpyBall.jumpyBall(10));
-        resources.Print.print(JumpyBall.jumpyBall(20));
+        resources.Print.print(gfg.JumpyBall.jumpyBall(10));
+        resources.Print.print(gfg.JumpyBall.jumpyBall(20));
 
          */
 
 
         /* Maximum Possible Sum of Products
-        MaximumPossibleSumOfProducts mpsop = new MaximumPossibleSumOfProducts();
+        gfg.MaximumPossibleSumOfProducts mpsop = new gfg.MaximumPossibleSumOfProducts();
         long[] A = {1, 2, 3};
         long[] B = {4, 5, 1};
         resources.Print.print(mpsop.MaxSum(A, B, 3));
@@ -455,7 +465,7 @@ public class GFG{
 
 
         /* Pattern of Strings
-        PatternOfStrings pos = new PatternOfStrings();
+        gfg.PatternOfStrings pos = new gfg.PatternOfStrings();
         resources.Print.print(pos.pattern("Geek"));
         resources.Print.print(pos.pattern("G*g"));
 
@@ -463,21 +473,21 @@ public class GFG{
 
 
         /* Triangle shrinking downwards
-        resources.Print.print(TriangleShrinkingDownwards.triDownwards("Geeks"));
-        resources.Print.print(TriangleShrinkingDownwards.triDownwards("@io30"));
+        resources.Print.print(gfg.TriangleShrinkingDownwards.triDownwards("Geeks"));
+        resources.Print.print(gfg.TriangleShrinkingDownwards.triDownwards("@io30"));
 
          */
 
 
         /* Rope Cutting
         int[] arr = {5, 1, 1, 2, 3, 5};
-        resources.Print.print(RopeCutting.ropeCutting(arr, 6));
+        resources.Print.print(gfg.RopeCutting.ropeCutting(arr, 6));
         int[] arr2 = {5, 1, 6, 9, 8, 11, 2, 2, 6, 5};
-        resources.Print.print(RopeCutting.RopeCutting(arr2, 10));
+        resources.Print.print(gfg.RopeCutting.gfg.RopeCutting(arr2, 10));
 
 
         /* Reverse alternate words
-        ReverseAlternateWords raw = new ReverseAlternateWords();
+        gfg.ReverseAlternateWords raw = new gfg.ReverseAlternateWords();
         resources.Print.print(raw.reverseAlternate("geeks for geeks"));
         resources.Print.print(raw.reverseAlternate("hello there peter pan"));
 
@@ -487,16 +497,16 @@ public class GFG{
         /* Maximum sum leaf to root path
         int[] arr = {1, 2, 3};
         resources.Node root = resources.Create.createBinaryTree(arr);
-        resources.Print.print(MaximumSumLeaftoRootPath.maxPathSum(root));
+        resources.Print.print(gfg.MaximumSumLeaftoRootPath.maxPathSum(root));
         int[] arr2 = {10, -2, 7, 8, -4};
         resources.Node root2 = resources.Create.createBinaryTree(arr2);
-        resources.Print.print(MaximumSumLeaftoRootPath.maxPathSum(root2));
+        resources.Print.print(gfg.MaximumSumLeaftoRootPath.maxPathSum(root2));
 
          */
 
 
         /* Palindromic Subsequences
-        PalindromicSubsequences ps = new PalindromicSubsequences();
+        gfg.PalindromicSubsequences ps = new gfg.PalindromicSubsequences();
         resources.Print.print(ps.MinRemove(5, "10001"));
         resources.Print.print(ps.MinRemove(8, "10001001"));
 
@@ -504,7 +514,7 @@ public class GFG{
 
 
         /* Kronecker Product
-        KroneckerProduct kp = new KroneckerProduct();
+        gfg.KroneckerProduct kp = new gfg.KroneckerProduct();
         int[][] A = {{1, 2}, {3, 4}};
         int[][] B = {{0, 5}, {6, 7}};
         resources.Print.print(kp.kroneckerProduct(2, 2, 2, 2, A, B));
@@ -513,7 +523,7 @@ public class GFG{
 
 
         /* Check if divisible by 4
-        CheckIfDivisibleByFour cidb4 = new CheckIfDivisibleByFour();
+        gfg.CheckIfDivisibleByFour cidb4 = new gfg.CheckIfDivisibleByFour();
         resources.Print.print(cidb4.divisibleBy4("1124"));
         resources.Print.print(cidb4.divisibleBy4("7"));
 
@@ -521,7 +531,7 @@ public class GFG{
 
 
         /* Flipping bits in Binary Format
-        FlippingBitsInBinaryFormat fbibf = new FlippingBitsInBinaryFormat();
+        gfg.FlippingBitsInBinaryFormat fbibf = new gfg.FlippingBitsInBinaryFormat();
         resources.Print.print(fbibf.flipBits(1L));
         resources.Print.print(fbibf.flipBits(2L));
 
@@ -529,7 +539,7 @@ public class GFG{
 
 
         /* Sort a String
-        SortAString sas = new SortAString();
+        gfg.SortAString sas = new gfg.SortAString();
         resources.Print.print(sas.sort("edcab"));
         resources.Print.print(sas.sort("xzy"));
 
@@ -537,14 +547,14 @@ public class GFG{
 
 
         /* Nth Pentagonal Number
-        resources.Print.print(NthPentagonalNumber.getNthPentagonalNum(1L));
-        resources.Print.print(NthPentagonalNumber.getNthPentagonalNum(2L));
+        resources.Print.print(gfg.NthPentagonalNumber.getNthPentagonalNum(1L));
+        resources.Print.print(gfg.NthPentagonalNumber.getNthPentagonalNum(2L));
 
          */
 
 
         /* Sum of dependencies in a graph
-        SumOfDependenciesInAGraph sodiag = new SumOfDependenciesInAGraph();
+        gfg.SumOfDependenciesInAGraph sodiag = new gfg.SumOfDependenciesInAGraph();
         int[][] mat = {{0, 2}, {0, 3}, {1, 3}, {2, 3}};
         ArrayList<ArrayList<Integer>> list = resources.Create.createArrayList(mat);
         resources.Print.print(list);
@@ -559,22 +569,22 @@ public class GFG{
 
         /* Inverse Permutation
         int[] arr = {1, 4, 3, 2};
-        resources.Print.print(InversePermutation.inversePermutation(arr, 4));
+        resources.Print.print(gfg.InversePermutation.inversePermutation(arr, 4));
         int[] arr2 = {2, 3, 4, 5, 1};
-        resources.Print.print(InversePermutation.inversePermutation(arr2, 5));
+        resources.Print.print(gfg.InversePermutation.inversePermutation(arr2, 5));
 
          */
 
 
         /* Program to print reciprocal of letters - copy
-        resources.Print.print(ProgramToPrintReciprocalOfLettersCopy.reciprocalString("ab C"));
-        resources.Print.print(ProgramToPrintReciprocalOfLettersCopy.reciprocalString("Ish"));
+        resources.Print.print(gfg.ProgramToPrintReciprocalOfLettersCopy.reciprocalString("ab C"));
+        resources.Print.print(gfg.ProgramToPrintReciprocalOfLettersCopy.reciprocalString("Ish"));
 
          */
 
 
         /* Front-Back Transformation - copy
-        FrontBackTransformationCopy fbtc = new FrontBackTransformationCopy();
+        gfg.FrontBackTransformationCopy fbtc = new gfg.FrontBackTransformationCopy();
         resources.Print.print(fbtc.convert("Hello"));
         resources.Print.print(fbtc.convert("GfG"));
 
@@ -582,14 +592,14 @@ public class GFG{
 
 
         /* Magical String[Duplicate Problem]
-        resources.Print.print(MagicalStringDuplicateProblem.magicalString("varun"));
-        resources.Print.print(MagicalStringDuplicateProblem.magicalString("akshay"));
+        resources.Print.print(gfg.MagicalStringDuplicateProblem.magicalString("varun"));
+        resources.Print.print(gfg.MagicalStringDuplicateProblem.magicalString("akshay"));
 
          */
 
 
         /* Swapping Triangles
-        SwappingTriangles st = new SwappingTriangles();
+        gfg.SwappingTriangles st = new gfg.SwappingTriangles();
         int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         resources.Print.print(st.swapTriangle(3, matrix));
         int[][] matrix2 = {{2, 7, 3, 1}, {10, 1, 5, 1}, {10, 4, 7, 6}, {6, 9, 1, 8}};
@@ -600,15 +610,15 @@ public class GFG{
 
         /* Max Min
         int[] arr = {-2, 1, -4, 5, 3};
-        resources.Print.print(MaxMin.findSum(arr, 5));
+        resources.Print.print(gfg.MaxMin.findSum(arr, 5));
         int[] arr2 = {1, 3, 4, 1};
-        resources.Print.print(MaxMin.findSum(arr2, 4));
+        resources.Print.print(gfg.MaxMin.findSum(arr2, 4));
 
          */
 
 
         /* Largest value in each level
-        LargestValueInEachLevel lviel = new LargestValueInEachLevel();
+        gfg.LargestValueInEachLevel lviel = new gfg.LargestValueInEachLevel();
         int[] arr = {1, 2, 3};
         resources.Node root = resources.Create.createBinaryTree(arr);
         resources.Print.print(lviel.largestValues(root));
@@ -620,7 +630,7 @@ public class GFG{
 
 
         /* Addition of submatrix
-        AdditionOfSubmatrix aos = new AdditionOfSubmatrix();
+        gfg.AdditionOfSubmatrix aos = new gfg.AdditionOfSubmatrix();
         int[][] matrix = {{1, 2, 3, 4, 5, 6}, {7, 8, 9, 10, 11, 12}, {13, 14, 15, 16, 17, 18}, {19, 20, 21, 22, 23, 24}, {25, 26, 27, 28, 29, 30}};
         resources.Print.print(aos.subMatrixSum(matrix, 5, 6, 3, 4, 4, 5));
         int[][] matrix2 = {{9, 8, 7},{4, 2, 1},{6, 5, 3}};
@@ -633,7 +643,7 @@ public class GFG{
 
 
         /* Akku and Binary Numbers
-        AkkuAndBinaryNumbers aabn = new AkkuAndBinaryNumbers();
+        gfg.AkkuAndBinaryNumbers aabn = new gfg.AkkuAndBinaryNumbers();
         resources.Print.print(aabn.solve(11L, 19L));
         resources.Print.print(aabn.solve(14L, 19L));
         resources.Print.print(aabn.solve(1L, 10000L));
@@ -643,14 +653,14 @@ public class GFG{
 
 
         /* Break Numbers [Duplicate problem]
-        resources.Print.print(BreakNumbersDuplicateProblem.countWays(3L));
-        resources.Print.print(BreakNumbersDuplicateProblem.countWays(1L));
+        resources.Print.print(gfg.BreakNumbersDuplicateProblem.countWays(3L));
+        resources.Print.print(gfg.BreakNumbersDuplicateProblem.countWays(1L));
 
          */
 
 
         /* Lower case to upper case
-        LowerCaseToUpperCase lctuc = new LowerCaseToUpperCase();
+        gfg.LowerCaseToUpperCase lctuc = new gfg.LowerCaseToUpperCase();
         resources.Print.print(lctuc.to_upper("geeks"));
         resources.Print.print(lctuc.to_upper("geeksforgeeks"));
 
@@ -658,7 +668,7 @@ public class GFG{
 
 
         /* Compute Before Matrix
-        ComputeBeforeMatrix cbm = new ComputeBeforeMatrix();
+        gfg.ComputeBeforeMatrix cbm = new gfg.ComputeBeforeMatrix();
         int[][] matrix = {{1, 3, 6}, {3, 7, 11}};
         resources.Print.print(cbm.computeBeforeMatrix(2, 3, matrix));
         int[][] matrix2 = {{1, 3, 5}};
@@ -668,8 +678,8 @@ public class GFG{
 
 
         /* Penalty Shooters
-        resources.Print.print(PenaltyShooters.goals(4, 9, 5));
-        resources.Print.print(PenaltyShooters.goals(13, 10, 7));
+        resources.Print.print(gfg.PenaltyShooters.goals(4, 9, 5));
+        resources.Print.print(gfg.PenaltyShooters.goals(13, 10, 7));
 
          */
 
@@ -677,25 +687,25 @@ public class GFG{
         /* Rearranging array
         int[] arr = {4, 5, 1, 2, 3};
         int[] ans = new int[5];
-        RearrangingArray.Rearrange(arr, 5, ans);
+        gfg.RearrangingArray.Rearrange(arr, 5, ans);
         resources.Print.print(ans);
         int[] arr2 = {1, 2, 3, 4};
         int[] ans2 = new int[4];
-        RearrangingArray.Rearrange(arr2, 4, ans2);
+        gfg.RearrangingArray.Rearrange(arr2, 4, ans2);
         resources.Print.print(ans2);
 
          */
 
 
         /* Snake Case
-        resources.Print.print(SnakeCase.snakeCase("Geeks ForGeeks", 14));
-        resources.Print.print(SnakeCase.snakeCase("Here comes the garden", 21));
+        resources.Print.print(gfg.SnakeCase.snakeCase("Geeks ForGeeks", 14));
+        resources.Print.print(gfg.SnakeCase.snakeCase("Here comes the garden", 21));
 
          */
 
 
         /* Earthquake and the Paint Shop
-        EarthquakeAndThePaintShop eatps = new EarthquakeAndThePaintShop();
+        gfg.EarthquakeAndThePaintShop eatps = new gfg.EarthquakeAndThePaintShop();
         String[] arr = {"2234597891 zmxvvxbcij 8800654113 jihgfedcba", "1234567891 zxyabcvapo 0123434908 padmadngaa", "1234567891 abcdefghij 9876543219 jihgfedcba", "2234597891 zmxvvxbcij 8800654113 jihgfedcba", "9120121291 zmxvvxbcij 0912114113 mnvxbedcba"};
         resources.Print.print(eatps.sortedStrings(5, arr), true);
         String[] arr2 = {"3122049353 onafrnbhtr 9822827304 yzfhdgzcvx", "3077357272 tojkoumxxs 0732733933 hbivwmrjhj", "2992299540 lpvkgykmlk 6946169466 vdqwvywwgg", "3077357272 tojkoumxxs 0732733933 hbivwmrjhj"};
@@ -705,7 +715,7 @@ public class GFG{
 
 
         /* Clone a stack without using extra space
-        CloneAStackWithoutUsingExtraSpace caswues = new CloneAStackWithoutUsingExtraSpace();
+        gfg.CloneAStackWithoutUsingExtraSpace caswues = new gfg.CloneAStackWithoutUsingExtraSpace();
         int[] arr = {1, 1, 2, 2, 3, 4, 5, 5, 6, 7};
         Stack<Integer> s = resources.Create.createStack(arr);
         Stack<Integer> cloned = new Stack<>();
@@ -721,22 +731,22 @@ public class GFG{
         /* Insertion Sort for Singly Linked List
         int[] arr = {30, 23, 28, 30, 11, 14, 19, 16, 21, 25};
         resources.Node root = resources.Create.createNodeLinkedList(arr);
-        resources.Print.printNodeLinkedList(InsertionSortForSinglyLinkedList.insertionSort(root));
+        resources.Print.printNodeLinkedList(gfg.InsertionSortForSinglyLinkedList.insertionSort(root));
         int[] arr2 = {19, 20, 16, 12, 29, 30};
         resources.Node root2 = resources.Create.createNodeLinkedList(arr2);
-        resources.Print.printNodeLinkedList(InsertionSortForSinglyLinkedList.insertionSort(root2));
+        resources.Print.printNodeLinkedList(gfg.InsertionSortForSinglyLinkedList.insertionSort(root2));
 
          */
 
 
         /* Remove loop in Linked List
-        RemoveLoopInLinkedList rlill = new RemoveLoopInLinkedList();
+        gfg.RemoveLoopInLinkedList rlill = new gfg.RemoveLoopInLinkedList();
 
          */
 
 
         /* Level order traversal in spiral form
-        LevelOrderTraversalInSpiralForm lotisf = new LevelOrderTraversalInSpiralForm();
+        gfg.LevelOrderTraversalInSpiralForm lotisf = new gfg.LevelOrderTraversalInSpiralForm();
         int[] arr = {1, 3, 2};
         resources.Node root = resources.Create.createBinaryTree(arr);
         resources.Print.print(lotisf.findSpiral(root));
@@ -749,7 +759,7 @@ public class GFG{
 
 
         /* Clone a Binary resources.Tree
-        CloneABinaryTree cabt = new CloneABinaryTree();
+        gfg.CloneABinaryTree cabt = new gfg.CloneABinaryTree();
         int[][] matrix = {{6, 3, 8, -1}, {3, 1, 5, -1}, {8, -1, -1, -1}, {1, -1, -1, 3}, {5, -1, -1, 6}};
         resources.Tree root = resources.Create.createRandomTree(matrix);
         resources.Print.printRandomTree(root);
@@ -759,7 +769,7 @@ public class GFG{
 
 
         /* Postorder Traversal (Iterative)
-        PostorderTraversalIterative pti = new PostorderTraversalIterative();
+        gfg.PostorderTraversalIterative pti = new gfg.PostorderTraversalIterative();
         int[] arr = {1, 2, 3, 4, 5};
         resources.Node root = resources.Create.createBinaryTree(arr);
         resources.Print.print(pti.postOrder(root));
@@ -771,7 +781,7 @@ public class GFG{
 
 
         /* Preorder traversal (Iterative)
-        PreorderTraversalIterative pti = new PreorderTraversalIterative();
+        gfg.PreorderTraversalIterative pti = new gfg.PreorderTraversalIterative();
         int[] arr = {1, 2, 3, 4, 5};
         resources.Node root = resources.Create.createBinaryTree(arr);
         resources.Print.print(pti.preOrder(root));
@@ -784,7 +794,7 @@ public class GFG{
 
 
         /* Inorder Traversal (Iterative)
-        InorderTraversalIterative iti = new InorderTraversalIterative();
+        gfg.InorderTraversalIterative iti = new gfg.InorderTraversalIterative();
         int[] arr = {1, 2, 3, 4, 5};
         resources.Node root = resources.Create.createBinaryTree(arr);
         resources.Print.print(iti.inOrder(root));
@@ -800,17 +810,17 @@ public class GFG{
         int[] arr = {10, 12, 15, 25, 30, 36};
         resources.Node node = resources.Create.createNodeLinkedList(arr);
         resources.Print.printNodeLinkedList(node);
-        resources.Print.printBinaryTree(MakeBinaryTreeFromLinkedList.convert(node, null));
+        resources.Print.printBinaryTree(gfg.MakeBinaryTreeFromLinkedList.convert(node, null));
         int[] arr2 = {5, 4, 3, 2, 1};
         resources.Node node2 = resources.Create.createNodeLinkedList(arr2);
         resources.Print.printNodeLinkedList(node2);
-        resources.Print.printBinaryTree(MakeBinaryTreeFromLinkedList.convert(node2, null));
+        resources.Print.printBinaryTree(gfg.MakeBinaryTreeFromLinkedList.convert(node2, null));
 
          */
 
 
         /* Height of Binary resources.Tree
-        HeightOfBinaryTree hobt = new HeightOfBinaryTree();
+        gfg.HeightOfBinaryTree hobt = new gfg.HeightOfBinaryTree();
         int[] arr = {1, 2, 3};
         resources.Node root = resources.Create.createBinaryTree(arr);
         resources.Print.printBinaryTree(root);
@@ -824,7 +834,7 @@ public class GFG{
 
 
         /* Merge two BST
-        MergeTwoBST mtbst = new MergeTwoBST();
+        gfg.MergeTwoBST mtbst = new gfg.MergeTwoBST();
         int[] arr1 = {5, 3, 6, 2, 4};
         int[] arr2 = {2, 1, 3, 7, 6};
         resources.Node root1 = resources.Create.createBST(arr1);
@@ -844,7 +854,7 @@ public class GFG{
 
 
         /* Rotate a Linked List
-        RotateALinkedList rall = new RotateALinkedList();
+        gfg.RotateALinkedList rall = new gfg.RotateALinkedList();
         int[] arr = {2, 4, 7, 8, 9};
         resources.Node root = resources.Create.createNodeLinkedList(arr);
         resources.Print.printNodeLinkedList(rall.rotate(root, 3));
@@ -856,23 +866,23 @@ public class GFG{
 
 
         /* Valid Substring
-        resources.Print.print(ValidSubstring.findMaxLen("(()("));
-        resources.Print.print(ValidSubstring.findMaxLen("()(())("));
+        resources.Print.print(gfg.ValidSubstring.findMaxLen("(()("));
+        resources.Print.print(gfg.ValidSubstring.findMaxLen("()(())("));
 
         */
 
 
         /* Equilibrium point
         long[] arr = {1L, 3L, 5L, 2L, 2L};
-        resources.Print.print(EquilibriumPoint.equilibriumPoint(arr, 5));
+        resources.Print.print(gfg.EquilibriumPoint.equilibriumPoint(arr, 5));
         long[] arr2 = {1L};
-        resources.Print.print(EquilibriumPoint.equilibriumPoint(arr2, 1));
+        resources.Print.print(gfg.EquilibriumPoint.equilibriumPoint(arr2, 1));
 
          */
 
 
         /* Integer to Words
-        IntegerToWords itw = new IntegerToWords();
+        gfg.IntegerToWords itw = new gfg.IntegerToWords();
         resources.Print.print(itw.convertToWords(438237764L));
         resources.Print.print(itw.convertToWords(1000L));
 
@@ -880,7 +890,7 @@ public class GFG{
 
 
         /* Check if array is sorted
-        CheckIfArrayIsSorted ciais = new CheckIfArrayIsSorted();
+        gfg.CheckIfArrayIsSorted ciais = new gfg.CheckIfArrayIsSorted();
         int[] arr = {10, 20, 30, 40, 50};
         resources.Print.print(ciais.arraySortedOrNot(arr, 5));
         int[] arr2 = {90, 80, 100, 70, 40, 30};
@@ -890,15 +900,15 @@ public class GFG{
 
         /* Winner of an election
         String[] arr = {"john", "johnny", "jackie", "johnny", "john", "jackie", "jamie", "jamie", "john", "johnny", "jamie", "johnny", "john"};
-        resources.Print.print(WinnerOfAnElection.winner(arr, 13));
+        resources.Print.print(gfg.WinnerOfAnElection.winner(arr, 13));
         String[] arr2 = {"andy", "blake", "clark"};
-        resources.Print.print(WinnerOfAnElection.winner(arr2, 3));
+        resources.Print.print(gfg.WinnerOfAnElection.winner(arr2, 3));
 
          */
 
 
         /* Searching a number
-        SearchingANumber san = new SearchingANumber();
+        gfg.SearchingANumber san = new gfg.SearchingANumber();
         int[] arr = {9, 7, 2, 16, 4};
         resources.Print.print(san.search(arr, 5, 16));
         int[] arr2 = {1, 22, 57, 47, 34, 18, 66};
@@ -908,7 +918,7 @@ public class GFG{
 
 
         /* Even Odd
-        EvenOdd eo = new EvenOdd();
+        gfg.EvenOdd eo = new gfg.EvenOdd();
         eo.evenOdd(2, 3);
         eo.evenOdd(5, 2);
 
@@ -916,7 +926,7 @@ public class GFG{
 
 
         /* Two Repeated Elements
-        TwoRepeatedElements tre = new TwoRepeatedElements();
+        gfg.TwoRepeatedElements tre = new gfg.TwoRepeatedElements();
         int[] arr = {1, 2, 1, 3, 4, 3};
         resources.Print.print(tre.twoRepeated(arr, 4));
         int[] arr2 = {1, 2, 2, 1};
@@ -929,17 +939,17 @@ public class GFG{
         int[] arr = {1, 2, 3, 4, 5, -1, -1, 7};
         resources.Node root = resources.Create.createBinaryTree(arr);
         resources.Print.printLevelOrder(root);
-        resources.Print.print(AncestorsInBinaryTree.Ancestors(root, 7));
+        resources.Print.print(gfg.AncestorsInBinaryTree.Ancestors(root, 7));
         int[] arr2 = {1, 2, 3};
         resources.Node root2 = resources.Create.createBinaryTree(arr2);
         resources.Print.printLevelOrder(root2);
-        resources.Print.print(AncestorsInBinaryTree.Ancestors(root2, 2));
+        resources.Print.print(gfg.AncestorsInBinaryTree.Ancestors(root2, 2));
 
          */
 
 
         /* Check whether BST contains Dead End
-        CheckWhetherBSTContainsDeadEnd cwbstcde = new CheckWhetherBSTContainsDeadEnd();
+        gfg.CheckWhetherBSTContainsDeadEnd cwbstcde = new gfg.CheckWhetherBSTContainsDeadEnd();
         int[] arr = {8, 5, 9, 2, 7, 1};
         resources.Node root = resources.Create.createBST(arr);
         resources.Print.print((cwbstcde.isDeadEnd(root) ? 1 : 0));
@@ -951,7 +961,7 @@ public class GFG{
 
 
         /* Move all negative elements to end
-        MoveAllNegativeElementsToEnd manete = new MoveAllNegativeElementsToEnd();
+        gfg.MoveAllNegativeElementsToEnd manete = new gfg.MoveAllNegativeElementsToEnd();
         int[] arr = {1, -1, 3, 2, -7, -5, 11, 6};
         manete.segregateElements(arr, 8);
         resources.Print.print(arr);
@@ -963,7 +973,7 @@ public class GFG{
 
 
         /* Counting elements in two arrays
-        CountingElementsInTwoArrays ceita = new CountingElementsInTwoArrays();
+        gfg.CountingElementsInTwoArrays ceita = new gfg.CountingElementsInTwoArrays();
         int[] arr1 = {1, 2, 3, 4, 7, 9};
         int[] arr2 = {0, 1, 2, 1, 1, 4};
         int m = 6, n = 6;
@@ -977,7 +987,7 @@ public class GFG{
 
 
         /* BFS of graph
-        BFSOfGraph bfsog = new BFSOfGraph();
+        gfg.BFSOfGraph bfsog = new gfg.BFSOfGraph();
         int V = 5;
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
         ArrayList<Integer> zeroList = new ArrayList<>();
@@ -1007,7 +1017,7 @@ public class GFG{
 
 
         /* First and last occurrences of x
-        FirstAndLastOccurrencesOfX flox = new FirstAndLastOccurrencesOfX();
+        gfg.FirstAndLastOccurrencesOfX flox = new gfg.FirstAndLastOccurrencesOfX();
         long arr[] = new long[]{1, 3, 5, 5, 5, 5, 67, 123, 125};
         resources.Print.print(flox.find(arr, 9, 5));
         long arr2[] = new long[]{1, 3, 5, 5, 5, 5, 7, 123, 125};
@@ -1017,13 +1027,13 @@ public class GFG{
 
 
         /* Sorted insert for circular linked list
-        SortedInsertForCircularLinkedList sifcll = new SortedInsertForCircularLinkedList();
+        gfg.SortedInsertForCircularLinkedList sifcll = new gfg.SortedInsertForCircularLinkedList();
         int arr[] = new int[]{1, 2, 4};
         resources.Node head = resources.Create.createCircularLinkedList(arr);
-        resources.Print.printCircular(SortedInsertForCircularLinkedList.sortedInsert(head, 2));
+        resources.Print.printCircular(gfg.SortedInsertForCircularLinkedList.sortedInsert(head, 2));
         int arr2[] = new int[]{1, 4, 7, 9};
         resources.Node head = resources.Create.createCircularLinkedList(arr);
-        resources.Print.printCircular(SortedInsertForCircularLinkedList.sortedInsert(head, 5));
+        resources.Print.printCircular(gfg.SortedInsertForCircularLinkedList.sortedInsert(head, 5));
 
          */
 
@@ -1031,10 +1041,10 @@ public class GFG{
         /* Find n/k th node in Linked List
         int[] arr = new int[]{1, 2, 3, 4, 5, 6};
         resources.Node head = resources.Create.createNodeLinkedList(arr);
-        resources.Print.print(FindNKthNodeInLinkedList.nknode(head, 2));
+        resources.Print.print(gfg.FindNKthNodeInLinkedList.nknode(head, 2));
         int[] arr2 = new int[]{2, 7, 9, 3, 5};
         resources.Node head2 = resources.Create.createNodeLinkedList(arr2);
-        resources.Print.print(FindNKthNodeInLinkedList.nknode(head2, 3));
+        resources.Print.print(gfg.FindNKthNodeInLinkedList.nknode(head2, 3));
 
          */
 
@@ -1044,18 +1054,18 @@ public class GFG{
         int[] arr2 = new int[]{2};
         resources.Node head1 = resources.Create.createNodeLinkedList(arr1);
         resources.Node head2 = resources.Create.createNodeLinkedList(arr2);
-        resources.Print.print(MultiplyTwoLinkedLists.multiplyTwoLists(head1, head2));
+        resources.Print.print(gfg.MultiplyTwoLinkedLists.multiplyTwoLists(head1, head2));
         int[] arr1 = new int[]{1, 0, 0};
         int[] arr2 = new int[]{1, 0};
         resources.Node head1 = resources.Create.createNodeLinkedList(arr1);
         resources.Node head2 = resources.Create.createNodeLinkedList(arr2);
-        resources.Print.print(MultiplyTwoLinkedLists.multiplyTwoLists(head1, head2));
+        resources.Print.print(gfg.MultiplyTwoLinkedLists.multiplyTwoLists(head1, head2));
 
         */
 
 
         /* Operating an array
-        OperatingAnArray oaa = new OperatingAnArray();
+        gfg.OperatingAnArray oaa = new gfg.OperatingAnArray();
         int[] arr = new int[]{2, 4, 1, 0, 6};
         int[] ops = new int[]{1, 2, 2, 0};
         resources.Print.print(oaa.operate(arr, ops));
