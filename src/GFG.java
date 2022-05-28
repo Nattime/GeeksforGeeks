@@ -9,6 +9,19 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Remove BST keys outside given range
+        RemoveBSTKeysOutsideGivenRange rbstkogr = new RemoveBSTKeysOutsideGivenRange();
+        Integer[] arr = {6, -13, 14, -8, 13, 15, 7};
+        Node root = Create.createBST(arr);
+        Print.printTree(rbstkogr.removekeys(root, -10, 13), false);
+        Integer[] arr2 = {14, 4, 16, 2, 8, 15, null, -8, 3, 7, 10};
+        Node root2 = Create.createBST(arr2);
+        Print.printTree(root2, false);
+        Print.printTree(rbstkogr.removekeys(root2, 2, 6), false);
+
+         */
+
+
         /* Largest subtree sum in a tree
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
         Node root = Create.createBinaryTree(arr);
