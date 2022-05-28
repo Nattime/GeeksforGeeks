@@ -9,6 +9,15 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Inorder Traversal and BST
+        int[] arr = {2, 4, 5};
+        Print.print(InorderTraversalAndBST.isRepresentingBST(arr, arr.length));
+        int[] arr2 = {2, 4, 1};
+        Print.print(InorderTraversalAndBST.isRepresentingBST(arr2, arr2.length));
+
+         */
+
+
         /* Height of Heap
         int[] arr = {1, 3, 6, 5, 9, 8};
         Print.print(HeightOfHeap.heapHeight(arr.length, arr));

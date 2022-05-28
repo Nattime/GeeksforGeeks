@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Inorder Traversal and BST
+
 Height of Heap
 
 Valentine Sum
