@@ -9,6 +9,19 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Valentine Sum
+        int[] arr = {1, 2, 9, 4, -1, 5, 7, 8, 19, -1, -1, 20, 11, 30, 40, 50};
+        Node root = Create.createBinaryTree(arr);
+        Print.printBinaryTree(root);
+        Print.print(ValentineSum.sum_at_distK(root, 9,1)); // 22
+        Print.print(ValentineSum.sum_at_distK(root, 9,2)); // 55
+        Print.print(ValentineSum.sum_at_distK(root, 40,2)); // 82
+        Print.print(ValentineSum.sum_at_distK(root, 40,3)); // 103
+        Print.print(ValentineSum.sum_at_distK(root, 40,1)); // 48
+
+         */
+
+
         /* Remove BST keys outside given range
         RemoveBSTKeysOutsideGivenRange rbstkogr = new RemoveBSTKeysOutsideGivenRange();
         Integer[] arr = {6, -13, 14, -8, 13, 15, 7};
