@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Height of Heap
+
 Valentine Sum
 
 Remove BST keys outside given range

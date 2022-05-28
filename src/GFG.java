@@ -9,6 +9,15 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Height of Heap
+        int[] arr = {1, 3, 6, 5, 9, 8};
+        Print.print(HeightOfHeap.heapHeight(arr.length, arr));
+        int[] arr2 = {3, 6, 9, 2, 15, 10, 14, 5, 12};
+        Print.print(HeightOfHeap.heapHeight(arr2.length, arr2));
+
+         */
+
+
         /* Valentine Sum
         int[] arr = {1, 2, 9, 4, -1, 5, 7, 8, 19, -1, -1, 20, 11, 30, 40, 50};
         Node root = Create.createBinaryTree(arr);
