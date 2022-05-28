@@ -17,7 +17,7 @@ public class Node{
     }
 
     public void setNext(Node n){
-        right = next = n;
+        next = n;
     }
 
     public void setPrev(Node n){
@@ -25,11 +25,11 @@ public class Node{
     }
 
     public void setLeft(Node n){
-        setPrev(n);
+        left = n;
     }
 
     public void setRight(Node n){
-        setNext(n);
+        right = n;
     }
 
     public int getData(){
@@ -37,16 +37,10 @@ public class Node{
     }
 
     public Node getPrev(){
-        if(left != null){
-            return left;
-        }
         return prev;
     }
 
     public Node getNext(){
-        if(right != null){
-            return right;
-        }
         return next;
     }
 
@@ -56,10 +50,10 @@ public class Node{
     }
 
     public Node getLeft(){
-        return getPrev();
+        return left;
     }
 
     public Node getRight(){
-        return getNext();
+        return right;
     }
 }
