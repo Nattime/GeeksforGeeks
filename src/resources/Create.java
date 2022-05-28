@@ -10,6 +10,7 @@ public class Create{
         PriorityQueue<Integer> pq = createPriorityQueue(arr);
         Print.print(pq);
     }
+
     public static Tree createRandomTree(int[][] matrix){
         Map<Integer, Tree> m = new HashMap<>();
         System.out.println(matrix.length + " len ");
@@ -41,7 +42,6 @@ public class Create{
         return tree;
     }
 
-
     public static Node createBinaryTree(int[] arr){
         if(arr.length < 1){
             return null;
@@ -49,12 +49,12 @@ public class Create{
         return binaryTreeHelper(arr);
     }
 
-    public static Node binaryTreeHelper(int[] arr){
+    private static Node binaryTreeHelper(int[] arr){
         Node root = new Node(arr[0]);
         Queue<Node> q = new LinkedList<>();
         q.add(root);
 
-        for(int i = 1;i < arr.length;i++){
+        for(int i = 1; i < arr.length; i++){
             Node curr = q.remove();
             if(arr[i] == -1){
                 curr.setLeft(null);
@@ -100,13 +100,40 @@ public class Create{
         }
     }
 
-    public static Node createBST(int[] arr){
+    public static Node createBST(Integer[] arr){
         if(arr.length < 1){
             return null;
         }
         Node root = new Node(arr[0]);
-        for(int i = 1;i < arr.length;i++){
-            bstAdd(root, arr[i]);
+        Set<Integer> s = new HashSet<>();
+        s.add(arr[0]);
+        for(int i = 1; i < arr.length; i++){
+            if(arr[i] != null){
+                if(!s.contains(arr[i])){
+                    s.add(arr[i]);
+                    bstAdd(root, arr[i]);
+                }
+            }
+        }
+        return root;
+    }
+
+    public static Node createBST(int[] arr){
+        return createBST(arr, false);
+    }
+
+    public static Node createBST(int[] arr, boolean isOneANumber){
+        if(arr.length < 1){
+            return null;
+        }
+        Set<Integer> s = new HashSet<>();
+        s.add(arr[0]);
+        Node root = new Node(arr[0]);
+        for(int i = 1; i < arr.length; i++){
+            if(!s.contains(arr[i])){
+                s.add(arr[i]);
+                bstAdd(root, arr[i]);
+            }
         }
         return root;
     }
@@ -114,21 +141,19 @@ public class Create{
     public static void bstAdd(Node root, int num){
         if(root != null){
             if(root.data > num){
-                if(root.prev != null){
-                    bstAdd(root.prev, num);
+                if(root.left != null){
+                    bstAdd(root.left, num);
                 }else{
-                    root.left = root.prev = new Node(num);
+                    root.left = new Node(num);
                 }
-            }else if(root.data < num){
-                if(root.next != null){
-                    bstAdd(root.next, num);
+            }else{
+                if(root.right != null){
+                    bstAdd(root.right, num);
                 }else{
-                    root.right = root.next = new Node(num);
+                    root.right = new Node(num);
                 }
             }
         }
-
-
     }
 
     public static Node createNodeLinkedList(int[] arr){
@@ -137,7 +162,7 @@ public class Create{
         }
         Node head = new Node(arr[0]);
         Node trav = head;
-        for(int i = 1;i < arr.length;i++){
+        for(int i = 1; i < arr.length; i++){
             trav.left = trav.next = new Node(arr[i]);
             trav = trav.next;
         }
@@ -150,7 +175,7 @@ public class Create{
         }
         Node head = new Node(arr[0]);
         Node trav = head;
-        for(int i = 1;i < arr.length;i++){
+        for(int i = 1; i < arr.length; i++){
             trav.right = trav.next = new Node(arr[i]);
             trav = trav.next;
         }
@@ -183,6 +208,7 @@ public class Create{
     public static PriorityQueue<Integer> createPriorityQueue(int[] arr){
         return createPriorityQueue(arr, null);
     }
+
     public static PriorityQueue<Integer> createPriorityQueue(int[] arr, Comparator<Integer> comparator){
         PriorityQueue<Integer> pq = new PriorityQueue<>(comparator);
         for(int iter : arr){
