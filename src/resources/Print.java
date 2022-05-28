@@ -5,7 +5,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.*;
 
 public class Print{
-        public static boolean test = false;
+    public static boolean test = false;
 //    public static boolean test = true;
 
     public static void testPrint(){
@@ -374,11 +374,15 @@ public class Print{
     }
 
     public static void printLevelOrder(Node root){
-        printLevelOrderHelper(root);
+        printLevelOrder(root, false);
+    }
+
+    public static void printLevelOrder(Node root, boolean inLine){
+        printLevelOrderHelper(root, inLine);
         System.out.println();
     }
 
-    private static void printLevelOrderHelper(Node root){
+    private static void printLevelOrderHelper(Node root, boolean inLine){
         if(root == null){
             System.out.println("Empty tree");
         }
@@ -396,12 +400,34 @@ public class Print{
                     q.add(curr.getRight());
                 }
             }
-            System.out.println();
+            if(!inLine){
+                System.out.println();
+            }
         }
     }
 
+    public static void printTree(Node root){
+        printTree(root, false);
+    }
+
+    public static void printTree(Node root, boolean inLine){
+        printLevelOrder(root, inLine);
+    }
+
+    public static void printBST(Node root){
+        printBST(root, false);
+    }
+
+    public static void printBST(Node root, boolean inLine){
+        printTree(root, inLine);
+    }
+
     public static void printBinaryTree(Node root){
-        printLevelOrder(root);
+        printBinaryTree(root, false);
+    }
+
+    public static void printBinaryTree(Node root, boolean inLine){
+        printTree(root, inLine);
     }
 
     public static void printRandomTree(Tree root){
