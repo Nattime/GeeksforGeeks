@@ -9,6 +9,16 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Check if all levels of two trees are anagrams or not
+        int[] arr1 = {1, 3, 2, -1, -1, 5, 4};
+        int[] arr2 = {1, 2, 3, 4, 5};
+        Node root1 = Create.createBinaryTree(arr1);
+        Node root2 = Create.createBinaryTree(arr2);
+        Print.print(CheckIfAllLevelsOfTwoTreesAreAnagramsOrNot.areAnagrams(root1, root2));
+
+         */
+
+
         /* Java Date and Day
         Print.print(JavaDateAndDay.findDay(17, 03, 2017));
         Print.print(JavaDateAndDay.findDay(29, 11, 2021));
