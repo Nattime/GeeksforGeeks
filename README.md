@@ -1,5 +1,9 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Corona Vaccine
+
+Total Number Of Spanning Trees In A Graph
+
 Inorder Traversal and BST
 
 Height of Heap
