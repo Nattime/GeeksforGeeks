@@ -9,6 +9,39 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Java Date and Day
+        Print.print(JavaDateAndDay.findDay(17, 03, 2017));
+        Print.print(JavaDateAndDay.findDay(29, 11, 2021));
+
+         */
+
+
+        /* Corona Vaccine
+        int[] arr = {1, 2, 3, -1, -1, -1, 4, -1, 5, -1, 6};
+        int[] arr2 = {1, 2, 3, 4, 5, 6, 7};
+        int[] arr3 = {1, 2, 3, 4, 5, 6, 7, 8};
+        Node root = Create.createBinaryTree(arr);
+        Node root2 = Create.createBinaryTree(arr2);
+        Node root3 = Create.createBinaryTree(arr3);
+        Print.printBinaryTree(root);
+        Print.printBinaryTree(root2);
+        Print.printBinaryTree(root3);
+        Print.print(CoronaVaccine.supplyVaccine(root));
+        Print.print(CoronaVaccine.supplyVaccine(root2));
+        Print.print(CoronaVaccine.supplyVaccine(root3));
+
+         */
+
+
+        /* Total Number Of Spanning Trees In A Graph
+        int[][] graph = {{0, 3}, {0, 1}, {1, 2}, {1, 5}, {3, 4}};
+        Print.print(TotalNumberOfSpanningTreesInAGraph.countSpanningTrees(graph, 6, 5));
+        int[][] graph2 = {{0, 1}, {1, 3}, {2, 3}, {2, 5}, {2, 8}, {3, 6}, {4, 7}, {5, 9}, {7, 8}};
+        Print.print(TotalNumberOfSpanningTreesInAGraph.countSpanningTrees(graph2, 10, 9));
+
+         */
+
+
         /* Inorder Traversal and BST
         int[] arr = {2, 4, 5};
         Print.print(InorderTraversalAndBST.isRepresentingBST(arr, arr.length));
