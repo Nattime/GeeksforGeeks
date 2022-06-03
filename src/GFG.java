@@ -9,6 +9,13 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Tom and String
+        Print.print(TomAndString.hashString("aA1 b"));
+        Print.print(TomAndString.hashString("aa BB cc DD"));
+
+         */
+
+
         /* Check if all levels of two trees are anagrams or not
         int[] arr1 = {1, 3, 2, -1, -1, 5, 4};
         int[] arr2 = {1, 2, 3, 4, 5};
