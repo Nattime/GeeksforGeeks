@@ -8,6 +8,15 @@ public class Print{
     public static boolean test = false;
 //    public static boolean test = true;
 
+    private static long start = System.currentTimeMillis();
+    private static void startTime(){
+        start = System.currentTimeMillis();
+    }
+    private static void printExecutionTime(){
+        System.out.println("Execution time is " + (System.currentTimeMillis() - start) + "ms");
+        System.out.println();
+    }
+
     public static void testPrint(){
         test = true;
         short[] shortarr = {1, 2, 3, 4};
@@ -102,101 +111,110 @@ public class Print{
 
     private static void print(short[] arr, boolean newLine){
         if(test) System.out.println("short arr " + newLine);
+        startTime();
         for(short iter : arr){
             System.out.print(iter + " ");
             if(newLine){
                 System.out.println();
             }
         }
-        System.out.println();
+        printExecutionTime();
     }
 
     private static void print(byte[] arr, boolean newLine){
         if(test) System.out.println("byte arr " + newLine);
+        startTime();
         for(short iter : arr){
             System.out.print(iter + " ");
             if(newLine){
                 System.out.println();
             }
         }
-        System.out.println();
+        printExecutionTime();
     }
 
     private static void print(int[] arr, boolean newLine){
         if(test) System.out.println("int arr " + newLine);
+        startTime();
         for(int iter : arr){
             System.out.print(iter + " ");
             if(newLine){
                 System.out.println();
             }
         }
-        System.out.println();
+        printExecutionTime();
     }
 
     private static void print(long[] arr, boolean newLine){
         if(test) System.out.println("long arr " + newLine);
+        startTime();
         for(long iter : arr){
             System.out.print(iter + " ");
             if(newLine){
                 System.out.println();
             }
         }
-        System.out.println();
+        printExecutionTime();
     }
 
     private static void print(boolean[] arr, boolean newLine){
         if(test) System.out.println("boolean arr " + newLine);
+        startTime();
         for(boolean iter : arr){
             System.out.print(iter + " ");
             if(newLine){
                 System.out.println();
             }
         }
-        System.out.println();
+        printExecutionTime();
     }
 
     private static void print(char[] arr, boolean newLine){
         if(test) System.out.println("char arr " + newLine);
+        startTime();
         for(char iter : arr){
             System.out.print(iter + " ");
             if(newLine){
                 System.out.println();
             }
         }
-        System.out.println();
+        printExecutionTime();
     }
 
     private static void print(float[] arr, boolean newLine){
         if(test) System.out.println("float arr " + newLine);
+        startTime();
         for(float iter : arr){
             System.out.print(iter + " ");
             if(newLine){
                 System.out.println();
             }
         }
-        System.out.println();
+        printExecutionTime();
     }
 
     private static void print(double[] arr, boolean newLine){
         if(test) System.out.println("double arr " + newLine);
+        startTime();
         for(double iter : arr){
             System.out.print(iter + " ");
             if(newLine){
                 System.out.println();
             }
         }
-        System.out.println();
+        printExecutionTime();
     }
 
     private static <T> void printArray(T[] arr, boolean newLine){
         if(test) System.out.println("T " + arr.getClass().getSimpleName() + " " + newLine);
+        startTime();
         for(T iter : arr){
             System.out.print(iter + " ");
             if(newLine){
                 System.out.println();
             }
         }
-        System.out.println();
+        printExecutionTime();
     }
 
     public static <T> void print(T var, boolean newLine){
@@ -221,22 +239,9 @@ public class Print{
             }else{
                 printArray((T[])var, newLine);
             }
-        }else if(var instanceof Collection){
-            printCollection(var, newLine);
         }else{
             print(var);
         }
-    }
-
-    private static <T> void printCollection(T var, boolean newLine){
-        if(test) System.out.println("Collection " + var.getClass().getSimpleName() + " " + newLine);
-        for(Object iter : (Collection)var){
-            System.out.print(iter + " ");
-            if(newLine){
-                System.out.println();
-            }
-        }
-        System.out.println();
     }
 
 //    private static void print(short var){
@@ -284,12 +289,15 @@ public class Print{
             print(var, false);
         }else{
             if(test) System.out.println(var.getClass().getSimpleName());
+            startTime();
             System.out.println(var);
+            printExecutionTime();
         }
     }
 
     public static <T> void print(List<T> list){
         if(test) System.out.println("List<T>");
+        startTime();
         if(list == null || list.isEmpty()){
             System.out.println("Is empty");
         }else{
@@ -298,9 +306,11 @@ public class Print{
             }
             System.out.println();
         }
+        printExecutionTime();
     }
 
     public static void printNodeLinkedList(Node root){
+        startTime();
         if(root == null){
             System.out.println("Is empty.");
         }
@@ -318,11 +328,13 @@ public class Print{
             }
             System.out.println();
         }
+        printExecutionTime();
     }
 
     public static void printInOrder(Node node){
+        startTime();
         printInOrderHelper(node);
-        System.out.println();
+        printExecutionTime();
     }
 
     private static void printInOrderHelper(Node node){
@@ -350,6 +362,7 @@ public class Print{
     }
 
     public static void printCircular(Node n){
+        startTime();
         if(n == null){
             System.out.println("Is Empty");
         }else{
@@ -361,28 +374,28 @@ public class Print{
             }
             System.out.println();
         }
+        printExecutionTime();
     }
 
     public static void printPreOrder(Node root){
+        startTime();
         printPreOrderHelper(root);
-        System.out.println();
+        printExecutionTime();
     }
 
     public static void printPostOrder(Node root){
+        startTime();
         printPostOrderHelper(root);
-        System.out.println();
+        printExecutionTime();
     }
 
     public static void printLevelOrder(Node root){
-        printLevelOrder(root, false);
+        startTime();
+        printLevelOrderHelper(root);
+        printExecutionTime();
     }
 
-    public static void printLevelOrder(Node root, boolean inLine){
-        printLevelOrderHelper(root, inLine);
-        System.out.println();
-    }
-
-    private static void printLevelOrderHelper(Node root, boolean inLine){
+    private static void printLevelOrderHelper(Node root){
         if(root == null){
             System.out.println("Empty tree");
         }
@@ -400,37 +413,16 @@ public class Print{
                     q.add(curr.getRight());
                 }
             }
-            if(!inLine){
-                System.out.println();
-            }
+            System.out.println();
         }
     }
 
-    public static void printTree(Node root){
-        printTree(root, false);
-    }
-
-    public static void printTree(Node root, boolean inLine){
-        printLevelOrder(root, inLine);
-    }
-
-    public static void printBST(Node root){
-        printBST(root, false);
-    }
-
-    public static void printBST(Node root, boolean inLine){
-        printTree(root, inLine);
-    }
-
     public static void printBinaryTree(Node root){
-        printBinaryTree(root, false);
-    }
-
-    public static void printBinaryTree(Node root, boolean inLine){
-        printTree(root, inLine);
+        printLevelOrder(root);
     }
 
     public static void printRandomTree(Tree root){
+        startTime();
         if(root == null){
             System.out.println("Is empty.");
         }else{
@@ -459,9 +451,11 @@ public class Print{
                 System.out.println();
             }
         }
+        printExecutionTime();
     }
 
     public static <T> void print(T[] arr, boolean newLine){
+        startTime();
         if(newLine){
             for(T iter : arr){
                 System.out.println(iter.toString());
@@ -471,34 +465,76 @@ public class Print{
                 System.out.print(iter.toString() + " ");
             }
         }
-        System.out.println();
+        printExecutionTime();
     }
 
     public static void print(int[] @NotNull [] matrix){
         if(test) System.out.println("int matrix");
+        startTime();
         for(int[] outer : matrix){
             for(int in : outer){
                 System.out.print(in + " ");
             }
             System.out.println();
         }
+        printExecutionTime();
     }
 
     public static <T> void print(T[] @NotNull [] matrix){
         if(test) System.out.println("T matrix");
+        startTime();
         for(T[] outer : matrix){
             for(T in : outer){
                 System.out.print(in + " ");
             }
             System.out.println();
         }
+        printExecutionTime();
     }
 
     public static <T> void print(@NotNull Set<T> set){
         if(test) System.out.println("Set<T>");
+        startTime();
         for(T iter : set){
             System.out.print(iter + " ");
         }
-        System.out.println();
+        printExecutionTime();
+    }
+
+    public static void printListNode(ListNode mergeNodes){
+        startTime();
+        while(mergeNodes != null){
+            System.out.print(mergeNodes.val + " ");
+            mergeNodes = mergeNodes.getNext();
+        }
+        printExecutionTime();
+    }
+
+    public static void printBinaryTree(TreeNode root, boolean inLine){
+        startTime();
+        if(root == null){
+            System.out.println("Empty tree");
+        }
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+        while(!q.isEmpty()){
+            int size = q.size();
+            for(int i = 0; i < size; i++){
+                TreeNode curr = q.remove();
+                if(curr == null){
+                    System.out.print("N ");
+                }else{
+                    System.out.print(curr.val + " ");
+                    if(curr.left != null || curr.right != null){
+                        q.add(curr.left);
+                        q.add(curr.right);
+                    }
+                }
+            }
+            if(!inLine){
+                System.out.println();
+            }
+        }
+        printExecutionTime();
     }
 }
