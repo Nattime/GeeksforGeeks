@@ -9,9 +9,11 @@ public class Print{
 //    public static boolean test = true;
 
     private static long start = System.currentTimeMillis();
+
     private static void startTime(){
         start = System.currentTimeMillis();
     }
+
     private static void printExecutionTime(){
         System.out.println("Execution time is " + (System.currentTimeMillis() - start) + "ms");
         System.out.println();
@@ -313,20 +315,20 @@ public class Print{
         startTime();
         if(root == null){
             System.out.println("Is empty.");
-        }
-        assert root != null;
-        if(root.getRight() != null){
-            while(root != null){
-                System.out.print(root.getData() + " ");
-                root = root.getRight();
-            }
-            System.out.println();
         }else{
-            while(root != null){
-                System.out.print(root.getData() + " ");
-                root = root.getNext();
+            if(root.getRight() != null){
+                while(root != null){
+                    System.out.print(root.getData() + " ");
+                    root = root.getRight();
+                }
+                System.out.println();
+            }else{
+                while(root != null){
+                    System.out.print(root.getData() + " ");
+                    root = root.getNext();
+                }
+                System.out.println();
             }
-            System.out.println();
         }
         printExecutionTime();
     }
@@ -514,27 +516,42 @@ public class Print{
         startTime();
         if(root == null){
             System.out.println("Empty tree");
-        }
-        Queue<TreeNode> q = new LinkedList<>();
-        q.add(root);
-        while(!q.isEmpty()){
-            int size = q.size();
-            for(int i = 0; i < size; i++){
-                TreeNode curr = q.remove();
-                if(curr == null){
-                    System.out.print("N ");
-                }else{
-                    System.out.print(curr.val + " ");
-                    if(curr.left != null || curr.right != null){
-                        q.add(curr.left);
-                        q.add(curr.right);
+        }else{
+            Queue<TreeNode> q = new LinkedList<>();
+            q.add(root);
+            while(!q.isEmpty()){
+                int size = q.size();
+                for(int i = 0; i < size; i++){
+                    TreeNode curr = q.remove();
+                    if(curr == null){
+                        System.out.print("N ");
+                    }else{
+                        System.out.print(curr.val + " ");
+                        if(curr.left != null || curr.right != null){
+                            q.add(curr.left);
+                            q.add(curr.right);
+                        }
                     }
                 }
-            }
-            if(!inLine){
-                System.out.println();
+                if(!inLine){
+                    System.out.println();
+                }
             }
         }
         printExecutionTime();
+    }
+
+    public static void printTNodePreorder(TNode root){
+        startTime();
+        printTNodePreorderHelper(root);
+        System.out.println();
+        printExecutionTime();
+    }
+    private static void printTNodePreorderHelper(TNode root){
+        if(root != null){
+            System.out.print(root.data + " ");
+            printTNodePreorderHelper(root.left);
+            printTNodePreorderHelper(root.right);
+        }
     }
 }

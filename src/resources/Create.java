@@ -156,6 +156,19 @@ public class Create{
         }
     }
 
+    public static LNode createLinkedListLNode(int[] arr){
+        if(arr == null || arr.length == 0){
+            return null;
+        }
+        LNode head = new LNode(arr[0]);
+        LNode trav = head;
+        for(int i = 1; i < arr.length; i++){
+            trav.right = trav.next = new LNode(arr[i]);
+            trav = trav.next;
+        }
+        return head;
+    }
+
     public static Node createNodeLinkedList(int[] arr){
         if(arr == null || arr.length == 0){
             return null;
@@ -163,7 +176,7 @@ public class Create{
         Node head = new Node(arr[0]);
         Node trav = head;
         for(int i = 1; i < arr.length; i++){
-            trav.left = trav.next = new Node(arr[i]);
+            trav.right = trav.next = new Node(arr[i]);
             trav = trav.next;
         }
         return head;

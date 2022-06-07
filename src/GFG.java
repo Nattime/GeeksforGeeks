@@ -1,13 +1,23 @@
 import gfg.*;
-import resources.Create;
-import resources.Node;
-import resources.Print;
+import resources.*;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class GFG{
     public static void main(String[] args){
+
+        /* Sorted Link List to BST
+        SortedLinkListToBST slltbst = new SortedLinkListToBST();
+        int[] arr = {1, 2, 3, 4, 5, 6, 7};
+        LNode head = Create.createLinkedListLNode(arr);
+        Print.printTNodePreorder(slltbst.sortedListToBST(head));
+        int[] arr2 = {1, 2, 3, 4};
+        LNode head2 = Create.createLinkedListLNode(arr2);
+        Print.printTNodePreorder(slltbst.sortedListToBST(head2));
+
+         */
+
 
         /* Tom and String
         Print.print(TomAndString.hashString("aA1 b"));
