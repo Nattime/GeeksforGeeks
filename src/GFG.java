@@ -7,6 +7,22 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Shortest Range In BST
+        ShortestRangeInBST sribst = new ShortestRangeInBST();
+        int[] arr = {8, 3, 10, 2, 6, -1, 14, -1, -1, 4, 7, 12, -1, -1, -1, -1, -1, 11, 13};
+        Node root = Create.createBinaryTree(arr);
+        Print.printBinaryTree(root);
+        ShortestRangeInBST.Range r = sribst.shortestRange(root);
+        System.out.println(r.x + " " + r.y);
+        int[] arr2 = {12, -1, 13, -1, 14, -1, 15, -1, 16};
+        Node root2 = Create.createBinaryTree(arr2);
+        Print.printBinaryTree(root2);
+        ShortestRangeInBST.Range r2 = sribst.shortestRange(root2);
+        System.out.println(r2.x + " " + r2.y);
+
+         */
+
+
         /* Sorted Link List to BST
         SortedLinkListToBST slltbst = new SortedLinkListToBST();
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
