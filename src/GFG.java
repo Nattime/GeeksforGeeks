@@ -7,6 +7,17 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Help a Thief
+        int[] A = {1, 2, 3};
+        int[] B = {3, 2, 1};
+        Print.print(HelpAThief.maxCoins(A, B, 3, 3));
+        int[] A2 = {1, 3, 2};
+        int[] B2 = {2, 3, 1};
+        Print.print(HelpAThief.maxCoins(A2, B2, 0, 3));
+
+         */
+
+
         /* Shortest Range In BST
         ShortestRangeInBST sribst = new ShortestRangeInBST();
         int[] arr = {8, 3, 10, 2, 6, -1, 14, -1, -1, 4, 7, 12, -1, -1, -1, -1, -1, 11, 13};

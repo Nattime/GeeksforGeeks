@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Help a Thief
+
 Sorted Link List to BST
 
 Tom and String
