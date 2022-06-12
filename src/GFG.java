@@ -1,11 +1,23 @@
 import gfg.*;
 import resources.*;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class GFG{
     public static void main(String[] args){
+
+        /* Party in Town
+        int[][] matrix = {{}, {2}, {1, 3, 4}, {2}, {2}};
+        ArrayList<ArrayList<Integer>> adj = Create.createArrayList(matrix);
+        Print.print(PartyInTown.partyHouse(4, adj));
+        int[][] matrix2 = {{}, {2}, {1, 3}, {2, 4}, {3}};
+        ArrayList<ArrayList<Integer>> adj2 = Create.createArrayList(matrix2);
+        Print.print(PartyInTown.partyHouse(4, adj2));
+
+         */
+
 
         /* Help a Thief
         int[] A = {1, 2, 3};

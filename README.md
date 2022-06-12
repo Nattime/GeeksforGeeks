@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Party in Town
+
 Help a Thief
 
 Sorted Link List to BST
