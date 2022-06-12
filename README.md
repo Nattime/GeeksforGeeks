@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Completing tasks
+
 Find all possible paths from top to bottom
 
 Party in Town

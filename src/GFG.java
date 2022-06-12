@@ -8,6 +8,16 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Completing tasks
+        CompletingTasks ct = new CompletingTasks();
+        int[] arr = {2, 5, 6, 7, 9, 4};
+        System.out.println(ct.findTasks(arr, 6, 15));
+        int[] arr2 = {2, 4, 3};
+        System.out.println(ct.findTasks(arr2, 3, 4));
+
+         */
+
+
         /* Find all possible paths from top to bottom
         int[][] matrix = {{1, 2, 3}, {4, 5, 6}};
         System.out.println(matrix.length + " " + matrix[0].length);
