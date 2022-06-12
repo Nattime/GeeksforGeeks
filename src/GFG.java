@@ -8,6 +8,17 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Find all possible paths from top to bottom
+        int[][] matrix = {{1, 2, 3}, {4, 5, 6}};
+        System.out.println(matrix.length + " " + matrix[0].length);
+        Print.print(FindAllPossiblePathsFromTopToBottom.findAllPossiblePaths(2, 3, matrix));
+        int[][] matrix2 = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        System.out.println(matrix2.length + " " + matrix2[0].length);
+        Print.print(FindAllPossiblePathsFromTopToBottom.findAllPossiblePaths(3, 3, matrix2));
+
+         */
+
+
         /* Party in Town
         int[][] matrix = {{}, {2}, {1, 3, 4}, {2}, {2}};
         ArrayList<ArrayList<Integer>> adj = Create.createArrayList(matrix);
