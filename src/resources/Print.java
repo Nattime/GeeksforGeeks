@@ -554,4 +554,14 @@ public class Print{
             printTNodePreorderHelper(root.right);
         }
     }
+
+    public static <T> void printList(List<T> adj){
+        startTime();
+        if(adj != null){
+            for(T list : adj){
+                System.out.println(list);
+            }
+        }
+        printExecutionTime();
+    }
 }
