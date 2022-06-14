@@ -8,6 +8,15 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Ishaan Loves Chocolates
+        int[] arr = {5, 3, 1, 6, 9};
+        Print.print(IshaanLovesChocolates.chocolates(arr, arr.length));
+        int[] arr2 = {5, 9, 2, 6};
+        Print.print(IshaanLovesChocolates.chocolates(arr2, arr2.length));
+
+         */
+
+
         /* Card Rotation
         CardRotation cr = new CardRotation();
         Print.printList(cr.rotation(4));

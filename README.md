@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+IshaanLovesChocolates
+
 Card Rotation
 
 Completing tasks
