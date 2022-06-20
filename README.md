@@ -1,6 +1,8 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
-IshaanLovesChocolates
+Number of positive integral solutions
+
+Ishaan Loves Chocolates
 
 Card Rotation
 

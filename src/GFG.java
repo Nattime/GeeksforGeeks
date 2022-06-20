@@ -8,6 +8,14 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Number of positive integral solutions
+        NumberOfPositiveIntegralSolutions nopis = new NumberOfPositiveIntegralSolutions();
+        Print.print(nopis.posIntSol("a+b=5"));
+        Print.print(nopis.posIntSol("a+b+c=5"));
+
+         */
+
+
         /* Ishaan Loves Chocolates
         int[] arr = {5, 3, 1, 6, 9};
         Print.print(IshaanLovesChocolates.chocolates(arr, arr.length));
