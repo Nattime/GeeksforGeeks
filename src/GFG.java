@@ -8,6 +8,18 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Queries on Strings
+        QueriesOnStrings qos = new QueriesOnStrings();
+        int[][] queries = {{1, 4}, {2, 4}, {1, 7}};
+        Print.print(qos.SolveQueris("abcbaed", queries));
+        int[][] queries2 = {{1, 4}, {2, 4}, {1, 7}, {3, 4}, {3, 5}};
+        Print.print(qos.SolveQueris("abcbaed", queries2));
+        int[][] queries3 = {{1, 4}, {2, 4}, {1, 7}, {3, 5}};
+        Print.print(qos.SolveQueris("abcbbaed", queries3));
+
+         */
+
+
         /* Number of positive integral solutions
         NumberOfPositiveIntegralSolutions nopis = new NumberOfPositiveIntegralSolutions();
         Print.print(nopis.posIntSol("a+b=5"));
