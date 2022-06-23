@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Finding Profession
+
 Queries on Strings
 
 Number of positive integral solutions

@@ -8,6 +8,13 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Finding Profession
+        Print.print(FindingProfession.profession(4, 2));
+        Print.print(FindingProfession.profession(3, 4));
+
+         */
+
+
         /* Queries on Strings
         QueriesOnStrings qos = new QueriesOnStrings();
         int[][] queries = {{1, 4}, {2, 4}, {1, 7}};
