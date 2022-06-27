@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Change Bits
+
 Finding Profession
 
 Queries on Strings

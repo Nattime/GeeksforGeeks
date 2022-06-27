@@ -8,6 +8,13 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Change Bits
+        Print.print(ChangeBits.changeBits(8));
+        Print.print(ChangeBits.changeBits(6));
+
+         */
+
+        
         /* Finding Profession
         Print.print(FindingProfession.profession(4, 2));
         Print.print(FindingProfession.profession(3, 4));
