@@ -8,6 +8,13 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Connell Sequence
+        Print.print(ConnellSequence.connellSequence(6));
+        Print.print(ConnellSequence.connellSequence(2));
+
+         */
+
+
         /* Change Bits
         Print.print(ChangeBits.changeBits(8));
         Print.print(ChangeBits.changeBits(6));

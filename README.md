@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Connell Sequence
+
 Change Bits
 
 Finding Profession
