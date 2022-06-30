@@ -8,6 +8,14 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Matrix Exponentiation
+        MatrixExponentiation me = new MatrixExponentiation();
+        Print.print(me.FindNthTerm(3));
+        Print.print(me.FindNthTerm(2));
+
+         */
+
+
         /* Connell Sequence
         Print.print(ConnellSequence.connellSequence(6));
         Print.print(ConnellSequence.connellSequence(2));
