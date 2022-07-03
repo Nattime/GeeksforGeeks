@@ -3,10 +3,18 @@ import resources.*;
 
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 import java.util.PriorityQueue;
 
 public class GFG{
     public static void main(String[] args){
+
+        /* Word Break - Part 2
+        Print.print(WordBreakPartTwo.wordBreak(5, List.of(new String[]{"cats", "cat", "and", "sand", "dog"}), "catsanddog"), true);
+        Print.print(WordBreakPartTwo.wordBreak(5, List.of(new String[]{"cats", "cat", "and", "sand", "dog"}), "catsandog"), true);
+
+         */
+
 
         /* Matrix Exponentiation
         MatrixExponentiation me = new MatrixExponentiation();

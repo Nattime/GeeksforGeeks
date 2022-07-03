@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Word Break - Part 2
+
 Matrix Exponentiation
 
 Connell Sequence
