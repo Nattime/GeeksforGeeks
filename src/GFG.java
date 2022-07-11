@@ -9,6 +9,13 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Shortest Uncommon Subsequence
+        Print.print(ShortestUncommonSubsequence.shortestUnSub("babab", "babba"));
+        Print.print(ShortestUncommonSubsequence.shortestUnSub("babhi", "babij"));
+
+         */
+
+
         /* Word Break - Part 2
         Print.print(WordBreakPartTwo.wordBreak(5, List.of(new String[]{"cats", "cat", "and", "sand", "dog"}), "catsanddog"), true);
         Print.print(WordBreakPartTwo.wordBreak(5, List.of(new String[]{"cats", "cat", "and", "sand", "dog"}), "catsandog"), true);
