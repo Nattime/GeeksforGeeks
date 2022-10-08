@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Maximum Depth Of Binary Tree
+
 Divisor Game
 
 Shortest Uncommon Subsequence

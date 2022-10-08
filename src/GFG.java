@@ -9,6 +9,18 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Maximum Depth Of Binary Tree
+        int[] arr = {1, 3, 2, 4};
+        Node root = Create.createBinaryTree(arr);
+        MaximumDepthOfBinaryTree mdobt = new MaximumDepthOfBinaryTree();
+        Print.print(mdobt.maxDepth(root));
+        int[] arr2 = {10, 20, 30, -1, 40, -1, 60, -1, -1, 2};
+        Node root2 = Create.createBinaryTree(arr2);
+        Print.print(mdobt.maxDepth(root2));
+
+         */
+
+
         /* Divisor Game
         Print.print(DivisorGame.divisorGame(2));
         Print.print(DivisorGame.divisorGame(3));
