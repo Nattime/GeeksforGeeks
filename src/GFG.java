@@ -9,6 +9,13 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Divisor Game
+        Print.print(DivisorGame.divisorGame(2));
+        Print.print(DivisorGame.divisorGame(3));
+
+         */
+
+
         /* Shortest Uncommon Subsequence
         Print.print(ShortestUncommonSubsequence.shortestUnSub("babab", "babba"));
         Print.print(ShortestUncommonSubsequence.shortestUnSub("babhi", "babij"));

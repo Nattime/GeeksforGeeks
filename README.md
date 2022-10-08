@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Divisor Game
+
 Shortest Uncommon Subsequence
 
 Word Break - Part 2
