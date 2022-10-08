@@ -1,5 +1,7 @@
 # Geeks for Geeks Completed Coding Challenges
 ## Finished challenges
+Print N to 1 without loop
+
 Maximum Depth Of Binary Tree
 
 Divisor Game

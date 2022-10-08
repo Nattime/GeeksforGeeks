@@ -9,6 +9,16 @@ import java.util.PriorityQueue;
 public class GFG{
     public static void main(String[] args){
 
+        /* Print N to 1 without loop
+        PrintNToOneWithoutLoop pnt1wl = new PrintNToOneWithoutLoop();
+        pnt1wl.printNos(10);
+        pnt1wl.printNos(15);
+        pnt1wl.printNos(1);
+        pnt1wl.printNos(0);
+
+         */
+
+
         /* Maximum Depth Of Binary Tree
         int[] arr = {1, 3, 2, 4};
         Node root = Create.createBinaryTree(arr);
